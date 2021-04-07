@@ -7,7 +7,7 @@ public class Aula02 {
         
         c1.cor= "Azul";
         c1.ponta = 0.5f;//Referencia a atributo
-        c1.tampar(); //Referencia a método
+        c1.destampar(); //Referencia a método
         c1.status(); //Referencia a método
         c1.rabiscar();        
     }
