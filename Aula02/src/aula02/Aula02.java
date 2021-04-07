@@ -7,8 +7,8 @@ public class Aula02 {
         
         c1.cor= "Azul";
         c1.ponta = 0.5f;//Referencia a atributo
-        c1.destampar(); //Referencia a método
-        c1.status(); //Referencia a método
+        c1.tampar(); //Referencia a método
+       // c1.status(); //Referencia a método
         c1.rabiscar();   
         
         Caneta c2 = new Caneta();
@@ -16,6 +16,7 @@ public class Aula02 {
         c2.modelo = "Hostnet";
         c2.cor = "Preta";
         c2.destampar();
+        c2.rabiscar();
     }
     
 }
