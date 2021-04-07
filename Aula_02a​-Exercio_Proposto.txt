@@ -2,6 +2,26 @@ Atividade
  
  Identifique dois objetos fisicos do seu ambiente e classifique-os.
 
+objetos fisico
+	Disco Rígido
+
+	Coisas que eu tenho = Atributos
+	 Marca
+	 Modelo
+	 Numero de Serie
+	 Tamanho
+	 Formatado	
+	
+	Coisas que eu faço  = Métodos
+	 Gravaficheiros
+	 LerFicheiro
+	 formatar 		
+
+	Como estou agora = Estado
+	 Seagate Barracuda de 250Gb a gravarFicheiros
+
+
+
  Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
 
 Uma classe deve responder as três pergunstas
