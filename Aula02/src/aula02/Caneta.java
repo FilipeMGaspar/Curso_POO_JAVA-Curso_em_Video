@@ -6,6 +6,9 @@ public class Caneta {
     int carga;
     boolean tampada;
     
+    void status(){
+        System.out.println("Uma caneta "+this.cor); //this é referente á p´ropria caneta
+    }
     void rabiscar(){
         
     }
