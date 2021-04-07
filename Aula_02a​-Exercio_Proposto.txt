@@ -2,4 +2,30 @@ Atividade
  
  Identifique dois objetos fisicos do seu ambiente e classifique-os.
 
-Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
+ Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
+
+Uma classe deve responder as três pergunstas
+
+
+
+Coisas que eu tenho = Atributos
+	Modelo
+	cor
+	ponta
+	carga
+	Tampada
+
+
+
+Coisas que eu faço  = Métodos
+	Escrever
+	Rabiscar
+	Pintar
+	Tampar
+	Destampar
+
+
+
+
+Como estou agora = Estado
+	Está com 50% de carga com ponta fina está escrvendo destampada
