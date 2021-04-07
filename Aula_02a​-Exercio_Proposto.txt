@@ -2,7 +2,7 @@ Atividade
  
  Identifique dois objetos fisicos do seu ambiente e classifique-os.
 
-objetos fisico
+objeto fisico
 	Disco Rígido
 
 	Coisas que eu tenho = Atributos
@@ -20,9 +20,37 @@ objetos fisico
 	Como estou agora = Estado
 	 Seagate Barracuda de 250Gb a gravarFicheiros
 
+objeto fisico
+	Livro
 
+	Coisas que eu tenho = Atributos
+	 Titulo
+	 Autor
+	 Editora
+         Preco
+
+	
+	Coisas que eu faço  = Métodos
+	 Abrir
+	 Fechar
+	 MudarDePagina
+			
+
+	Como estou agora = Estado
+	 ler sem receio do Escrivas dos Santos aberto na página 25
 
  Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
+
+	Coisas que eu tenho = Atributos
+
+	Coisas que eu faço  = Métodos
+
+	
+	Como estou agora = Estado
+
+
+
+
 
 Uma classe deve responder as três pergunstas
 
