@@ -82,30 +82,3 @@ Objeto conceitual
 	Como estou agora = Estado
          O João Felgueiras no dia 30 de Fevereiro de 1910 faltou a Português Z
 
-
-
-Uma classe deve responder as três pergunstas
-
-
-
-Coisas que eu tenho = Atributos
-	Modelo
-	cor
-	ponta
-	carga
-	Tampada
-
-
-
-Coisas que eu faço  = Métodos
-	Escrever
-	Rabiscar
-	Pintar
-	Tampar
-	Destampar
-
-
-
-
-Como estou agora = Estado
-	Está com 50% de carga com ponta fina está escrvendo destampada
