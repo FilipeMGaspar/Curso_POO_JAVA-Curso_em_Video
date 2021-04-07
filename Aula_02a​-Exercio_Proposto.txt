@@ -64,6 +64,23 @@ objeto fisico
 
   
 
+Objeto conceitual
+	Mapa de faltas de uma turma
+	
+	Coisas que eu tenho = Atributos	
+	 Numero do aluno
+	 Nome do aluno
+	 Data
+	 Presente
+         Nome da disciplina	 
+
+	Coisas que eu faço  = Métodos
+         MarcarFalta
+	 JustificarFalta
+         ContarNumeroDeFaltas	
+	
+	Como estou agora = Estado
+         O João Felgueiras no dia 30 de Fevereiro de 1910 faltou a Português Z
 
 
 
