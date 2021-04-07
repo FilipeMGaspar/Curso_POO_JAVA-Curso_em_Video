@@ -41,13 +41,28 @@ objeto fisico
 
  Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
 
+	
+	Objeto conceitual
+	 Férias 
+	
 	Coisas que eu tenho = Atributos
+	 Nome do funcionário
+         Data de Inicio
+	 Data de Fim
+	 Quantidade de dias
+ 	 Autorisadas	 
+
+         	 
 
 	Coisas que eu faço  = Métodos
-
+	 Marcar
+	 Remarcar
+	 Anular	
 	
 	Como estou agora = Estado
+        As férias de 22 dias do Sr. Joaquim estão a ser marcadas
 
+  
 
 
 
