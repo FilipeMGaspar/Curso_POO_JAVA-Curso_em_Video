@@ -20,15 +20,17 @@ public class ClassObjConcreto {
         this.combustivel = comb;
     }
     
-    void arrancar(){
+    void ligarMotor(){
         arrancar = true;
     }
     
-    void parar(){
+    void pararMotor(){
         arrancar = false;
     }
     
     void iniciarMarcha(){
-        
+        if(this.arrancar == true{
+            
+        }
     }
 }
