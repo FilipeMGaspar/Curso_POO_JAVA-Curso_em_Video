@@ -17,5 +17,7 @@ public class ObjAbstrato {
        naAcademia.peso = 99.8f;
        naAcademia.increver();
        naAcademia.mostraFichaAluno();
+       naAcademia.treinarNaAcademia();
+       System.out.println("");
    }
 }
