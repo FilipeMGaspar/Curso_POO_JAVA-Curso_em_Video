@@ -1,14 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package aula02exercicio;
 
-/**
- *
- * @author Aprender
- */
 public class ClassObjConcreto {
+    // Classe objeto concreto
+        // Carro   
+    String marca;
+    String modelo;
+    String combustivel;
+    boolean arrancar;
+        
+    void criarMarca(String m){
+        this.marca = m; 
+    }
     
+    void criarModelo(String mod){
+        this.modelo = mod;
+    }
+    
+    void tipoCombustivel(String comb){
+        this.combustivel = comb;
+    }
+    
+    void arrancar(){
+        
+    }
 }
