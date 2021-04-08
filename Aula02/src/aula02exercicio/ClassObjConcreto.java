@@ -27,4 +27,8 @@ public class ClassObjConcreto {
     void parar(){
         arrancar = false;
     }
+    
+    void iniciarMarcha(){
+        
+    }
 }
