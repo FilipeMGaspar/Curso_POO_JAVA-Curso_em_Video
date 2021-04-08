@@ -31,6 +31,8 @@ public class ClassObjConcreto {
     void iniciarMarcha(){
        if(this.arrancar == true){
            System.out.println("Vamos iniciar a viagem!");
+       }else {
+           System.out.println("O motor está parado! Viagem Impossível!");
        }
     }
 }
