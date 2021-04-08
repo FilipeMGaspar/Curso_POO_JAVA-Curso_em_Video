@@ -2,8 +2,7 @@ package aula02exercicio;
 
 public class ObjConcreto {
        public static void main(String[] args) {
-        ClassObjConcreto fordFocus = new ClassObjConcreto();
-        
+        ClassObjConcreto fordFocus = new ClassObjConcreto();        
         fordFocus.criarMarca("Ford");
         fordFocus.criarModelo("Focus");
         fordFocus.tipoCombustivel("Gasolina");
@@ -13,6 +12,9 @@ public class ObjConcreto {
         
         System.out.println("");
         
-        ClassObjConcreto fordFocus = new ClassObjConcreto();
+        ClassObjConcreto peugeot306 = new ClassObjConcreto();
+        peugeot306.criarMarca("Peugeot 306");
+        peugeot306.criarModelo("2.0 HDI");
+        
     }
 }
