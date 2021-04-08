@@ -15,6 +15,7 @@ public class ObjConcreto {
         ClassObjConcreto peugeot306 = new ClassObjConcreto();
         peugeot306.criarMarca("Peugeot 306");
         peugeot306.criarModelo("2.0 HDI");
+        peugeot306.tipoCombustivel("Diesel");
         
     }
 }
