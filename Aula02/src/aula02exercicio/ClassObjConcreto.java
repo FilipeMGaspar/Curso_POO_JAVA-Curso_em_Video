@@ -29,6 +29,8 @@ public class ClassObjConcreto {
     }
     
     void iniciarMarcha(){
-       
+       if(this.arrancar == true){
+           System.out.println("Vamos iniciar a viagem!");
+       }
     }
 }
