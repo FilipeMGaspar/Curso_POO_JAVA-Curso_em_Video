@@ -35,4 +35,18 @@ public class ClassObjConcreto {
            System.out.println("O motor está parado! Viagem Impossível!");
        }
     }
+    
+    void infoCarro(){
+        String motorAtrabalhar = "";
+        if(){
+            
+        }esle{
+        
+        }
+        
+        System.out.println("Marca: " + this.marca);
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Combustivel: " + this.combustivel);
+        System.out.println("Motor a funcionar "+);
+    }
 }
