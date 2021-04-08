@@ -7,6 +7,9 @@ public class ClasseObjAbstrato {
     String nome;
     int idade;
     float peso;
-    
+    int dia;
+    int mes;
+    int ano;
+    String dataInscricao;
     
 }
