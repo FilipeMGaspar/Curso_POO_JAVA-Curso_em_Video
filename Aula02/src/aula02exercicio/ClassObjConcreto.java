@@ -23,4 +23,8 @@ public class ClassObjConcreto {
     void arrancar(){
         arrancar = true;
     }
+    
+    void parar(){
+        arrancar = false;
+    }
 }
