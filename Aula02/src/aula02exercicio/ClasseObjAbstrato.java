@@ -9,7 +9,7 @@ public class ClasseObjAbstrato {
     float peso;
     boolean inscrito = false;
     
-    void inscricao(){
+    void mostraFichaAluno(){
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
         System.out.println("Peso: " + this.peso);
