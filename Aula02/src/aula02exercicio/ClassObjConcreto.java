@@ -21,6 +21,6 @@ public class ClassObjConcreto {
     }
     
     void arrancar(){
-        
+        arrancar = true;
     }
 }
