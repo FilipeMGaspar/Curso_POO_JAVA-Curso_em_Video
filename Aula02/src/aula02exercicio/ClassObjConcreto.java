@@ -29,8 +29,6 @@ public class ClassObjConcreto {
     }
     
     void iniciarMarcha(){
-        if(this.arrancar == true{
-            
-        }
+       
     }
 }
