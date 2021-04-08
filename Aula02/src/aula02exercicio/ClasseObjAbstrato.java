@@ -22,6 +22,8 @@ public class ClasseObjAbstrato {
     void treinarNaAcademia(){
         if(this.inscrito == true){
             System.out.println("Seja bem vindo! Bom Treino!");
+        }else {
+            System.out.println("Não está inscrito! Não pode Treinar!");
         }
     }
     
