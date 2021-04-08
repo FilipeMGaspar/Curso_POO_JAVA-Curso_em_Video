@@ -6,6 +6,8 @@ public class ObjConcreto {
         
         fordFocus.criarMarca("Ford");
         fordFocus.criarModelo("Focus");
+        fordFocus.tipoCombustivel("Gasolina");
+        fordFocus.ligarMotor();
         
     }
 }
