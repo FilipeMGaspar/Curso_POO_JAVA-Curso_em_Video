@@ -7,9 +7,11 @@ public class ClasseObjAbstrato {
     String nome;
     int idade;
     float peso;
-    int dia;
-    int mes;
-    int ano;
-    String dataInscricao;
+    
+    void inscricao(){
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
+        System.out.println("Peso: " + this.peso);
+    }
     
 }
