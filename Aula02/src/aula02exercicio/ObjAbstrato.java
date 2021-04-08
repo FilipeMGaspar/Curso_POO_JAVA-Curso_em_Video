@@ -15,5 +15,6 @@ public class ObjAbstrato {
        naAcademia.idade = 36;
        naAcademia.peso = 99.8f;
        naAcademia.increver();
+       
    }
 }
