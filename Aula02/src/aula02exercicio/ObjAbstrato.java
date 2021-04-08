@@ -7,6 +7,7 @@ public class ObjAbstrato {
        treinoLivre.nome = "Ana Marques";
        treinoLivre.idade = 25;
        treinoLivre.peso = 60;
+       treinoLivre.mostraFichaAluno();
        treinoLivre.treinarNaAcademia();
        System.out.println("");
        
@@ -15,6 +16,6 @@ public class ObjAbstrato {
        naAcademia.idade = 36;
        naAcademia.peso = 99.8f;
        naAcademia.increver();
-       
+       naAcademia.mostraFichaAluno();
    }
 }
