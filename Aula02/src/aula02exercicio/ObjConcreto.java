@@ -5,6 +5,7 @@ public class ObjConcreto {
         ClassObjConcreto fordFocus = new ClassObjConcreto();
         
         fordFocus.criarMarca("Ford");
+        fordFocus.criarModelo("Focus");
         
     }
 }
