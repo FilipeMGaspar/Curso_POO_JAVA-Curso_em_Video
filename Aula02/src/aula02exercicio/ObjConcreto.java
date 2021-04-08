@@ -16,6 +16,10 @@ public class ObjConcreto {
         peugeot306.criarMarca("Peugeot 306");
         peugeot306.criarModelo("2.0 HDI");
         peugeot306.tipoCombustivel("Diesel");
+        peugeot306.pararMotor();
+        peugeot306.infoCarro();
+        peugeot306.iniciarMarcha();
         
+        System.out.println("");
     }
 }
