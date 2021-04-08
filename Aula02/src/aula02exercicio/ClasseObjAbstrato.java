@@ -7,7 +7,7 @@ public class ClasseObjAbstrato {
     String nome;
     int idade;
     float peso;
-    boolean inscrito;
+    boolean inscrito = false;
     
     void inscricao(){
         System.out.println("Nome: " + this.nome);
@@ -17,6 +17,12 @@ public class ClasseObjAbstrato {
     
     void increver(){
         this.inscrito = true;
+    }
+    
+    void treinarNaAcademia(){
+        if(this.inscrito == true){
+            System.out.println("Seja bem vindo! Bom Treino!");
+        }
     }
     
 }
