@@ -38,15 +38,15 @@ public class ClassObjConcreto {
     
     void infoCarro(){
         String motorAtrabalhar = "";
-        if(){
-            
-        }esle{
-        
+        if(this.arrancar == true){
+            motorAtrabalhar = "Motor a Trabalhar!";
+        }else{
+             motorAtrabalhar = "Motor Desligado!";
         }
         
         System.out.println("Marca: " + this.marca);
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Combustivel: " + this.combustivel);
-        System.out.println("Motor a funcionar "+);
+        System.out.println(motorAtrabalhar);
     }
 }
