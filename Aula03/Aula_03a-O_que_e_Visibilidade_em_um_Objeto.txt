@@ -1,1 +1,23 @@
 Aula 03a​ - O que é Visibilidade em um Objeto?
+
+Diagrama de Classes
+    
+      UML
+	Toda as classes são um retangulo
+	 
+        
+----------------------------------------
+   Modificadores de visibilidade
+
+Indicam o nivel de acesso aos componentes 
+internos de uma classe. Atributos e métodos
+
+
++ Público
+ 
+- Privado
+ 
+# Protegido
+
+
+   
