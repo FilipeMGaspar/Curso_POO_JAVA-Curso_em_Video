@@ -2,9 +2,9 @@ package aula03;
 public class Caneta {
    public String modelo; //atributo público
    public String cor; //atributo público
-   private float ponta;
-   protected int carga;
-   protected  boolean tampada;
+   private float ponta; //atributo privado
+   protected int carga; //atributo protejido
+   protected  boolean tampada; //atributo protejido
     
    public void status(){
         System.out.println("Modelo: " + this.modelo);
