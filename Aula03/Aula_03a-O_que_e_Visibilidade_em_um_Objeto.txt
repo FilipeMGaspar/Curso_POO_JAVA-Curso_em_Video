@@ -13,11 +13,23 @@ Indicam o nivel de acesso aos componentes
 internos de uma classe. Atributos e métodos
 
 
-+ Público
- 
-- Privado
- 
-# Protegido
+Telefone utilizado como exemplo 
 
++ Público   (Cabine telefónica)
+	Todos podem utilizar
+ 
+- Privado   (Telemóvel)
+	Só eu posso utilizar      
+ 
+# Protegido   (Telefone de Casa)
+	A minha mão e os filhos dela podem utilizar
 
    
++ Público 
+A classe atual e todas as outras classes.
+
+- Privado 
+Somente a classe atual
+
+# Protegido 
+A classe atual e todas as suas sub-classes
