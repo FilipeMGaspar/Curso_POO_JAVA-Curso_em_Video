@@ -4,7 +4,7 @@ public class Caneta {
    public String cor; //atributo público
    private float ponta; //atributo privado
    protected int carga; //atributo protejido
-   protected  boolean tampada; //atributo protejido
+   private  boolean tampada; //atributo protejido
     
    public void status(){
         System.out.println("Modelo: " + this.modelo);
@@ -21,11 +21,11 @@ public class Caneta {
         }
     }
     
-    protected void tampar(){
+    public void tampar(){
         this.tampada = true;
     }
     
-    protected void destampar(){
+    public void destampar(){
         this.tampada = false;
     }
 }
