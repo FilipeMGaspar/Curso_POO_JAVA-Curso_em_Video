@@ -2,18 +2,18 @@ package aula03;
 public class Caneta {
    public String modelo; //atributo público
    public String cor; //atributo público
-    float ponta;
-    int carga;
-    boolean tampada;
+   private float ponta;
+   protected int carga;
+   protected  boolean tampada;
     
-    void status(){
+   public void status(){
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Cor: " + this.cor); //this é referente á p´ropria caneta
         System.out.println("Ponta: " + this.ponta);
         System.out.println("Carga: " + this.carga);
         System.out.println("Está tampada: "+this.tampada);
     }
-    void rabiscar(){
+    public void rabiscar(){
         if(this.tampada == true){
             System.out.println("Erro! Não posso rabiscar!");
         }else{
@@ -21,11 +21,11 @@ public class Caneta {
         }
     }
     
-    void tampar(){
+    protected void tampar(){
         this.tampada = true;
     }
     
-    void destampar(){
+    protected void destampar(){
         this.tampada = false;
     }
 }
