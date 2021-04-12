@@ -1,7 +1,7 @@
 package aula03;
 public class Caneta {
-    String modelo;
-    String cor;
+   public String modelo; //atributo público
+   public String cor; //atributo público
     float ponta;
     int carga;
     boolean tampada;
