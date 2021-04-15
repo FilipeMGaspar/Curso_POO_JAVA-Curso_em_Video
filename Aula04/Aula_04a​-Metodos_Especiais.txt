@@ -11,4 +11,4 @@ Getters   -> pega alguma informação obtém
 t = e.getTotDoc() // Método get
 
 
-e.totDoc = e.totDoc + 1
+e.totDoc = e.totDoc + 1 // Atributo
