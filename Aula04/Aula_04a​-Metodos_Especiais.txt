@@ -1,2 +1,4 @@
 Métodos Especiais
 
+e = nova Estante //Intanciar uma classe
+t = e.totDoc //Atributo
