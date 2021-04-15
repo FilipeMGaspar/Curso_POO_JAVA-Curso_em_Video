@@ -15,5 +15,5 @@ e.totDoc = e.totDoc + 1 // Atributo
 
 Métodos Modificadores
 Setters -> modifica atributos dentro do objeto
+e.setTotDoc(doc); //método que recebe um parametro
 
- 
