@@ -11,4 +11,6 @@ Getters   -> pega alguma informação obtém
 
 
 
+t = e.getTotDoc() // Método get
+
 
