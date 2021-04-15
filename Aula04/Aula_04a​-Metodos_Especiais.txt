@@ -12,3 +12,8 @@ t = e.getTotDoc() // Método get
 
 
 e.totDoc = e.totDoc + 1 // Atributo
+
+Métodos Modificadores
+Setters -> modifica atributos dentro do objeto
+
+ 
