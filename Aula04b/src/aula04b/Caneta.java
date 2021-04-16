@@ -17,4 +17,9 @@ public class Caneta {
    public void setPonta(float DmPonta){
        this.ponta = DmPonta; 
    }
+   
+   public void status(){
+       System.out.println("Modelo: " + this.getModelo());
+       System.out.println("Ponta: " + this.getPonta());
+   }
 }
