@@ -10,4 +10,11 @@ public class Caneta {
    public void setModelo(String model){
       this.modelo = model;  
    }
+   
+   public float getPonta(){
+       return this.ponta;
+   }
+   public void setPonta(float DmPonta){
+       this.ponta = DmPonta; 
+   }
 }
