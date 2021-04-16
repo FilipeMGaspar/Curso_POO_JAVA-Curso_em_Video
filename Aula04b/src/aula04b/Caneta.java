@@ -8,10 +8,12 @@ public class Caneta {
    
    //Método Construtor
    public Caneta(String model, String color, float DmPonta){ //Este é o método Construtor
-       this.tampar();
-       this.cor = "Azul";
+       this.setModelo(model);
+       this.setPonta(DmPonta);
+       this.setCor(color);
    }
    
+   ////Métoso Acessores e modificadores dao atributo modelo
    public String getModelo(){
        return this.modelo;
    }
@@ -19,12 +21,22 @@ public class Caneta {
       this.modelo = model;  
    }
    
+   //Métoso Acessores e modificadores dao atributo Ponta
    public float getPonta(){
        return this.ponta;
    }
    public void setPonta(float DmPonta){
        this.ponta = DmPonta; 
    }
+   
+   //Métoso Acessores e modificadores dao atributo cor
+   public String getCor(){
+       return this.cor;
+   }
+   public void setCor(String color){
+       this.cor = color;
+   }
+   //Métoso Acessores e modificadores dao atributo tampada
    
    public void tampar(){
        this.tampada = true;
@@ -38,7 +50,7 @@ public class Caneta {
        System.out.println("SOBRE A CANETA");
        System.out.println("Modelo: " + this.getModelo());
        System.out.println("Ponta: " + this.getPonta());
-       System.out.println("Cor: " + this.cor);
+       System.out.println("Cor: " + this.getCor());
        System.out.println("Tampada: " + this.tampada);
    }
 }
