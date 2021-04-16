@@ -11,6 +11,7 @@ public class Caneta {
        this.setModelo(model);
        this.setPonta(DmPonta);
        this.setCor(color);
+       this.tampar();
    }
    
    ////Métoso Acessores e modificadores dao atributo modelo
