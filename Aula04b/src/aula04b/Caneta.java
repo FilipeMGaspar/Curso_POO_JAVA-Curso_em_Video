@@ -36,14 +36,21 @@ public class Caneta {
    public void setCor(String color){
        this.cor = color;
    }
+   
    //Métoso Acessores e modificadores dao atributo tampada
+   public boolean getTampada(){
+       return this.tampada;
+   }
+   public void setTampada(boolean tampa){
+       this.tampada = tampa;
+   }
    
    public void tampar(){
-       this.tampada = true;
+       this.setTampada(true);
    }
    
    public void destampar(){
-       this.tampada = false;
+       this.setTampada(false);
    }
    
    public void status(){
@@ -51,6 +58,6 @@ public class Caneta {
        System.out.println("Modelo: " + this.getModelo());
        System.out.println("Ponta: " + this.getPonta());
        System.out.println("Cor: " + this.getCor());
-       System.out.println("Tampada: " + this.tampada);
+       System.out.println("Tampada: " + this.getTampada());
    }
 }
