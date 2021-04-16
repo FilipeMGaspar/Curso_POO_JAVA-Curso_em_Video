@@ -46,6 +46,16 @@ public class Caneta {
         this.cor = cor;
     }
     
+    public void status(){
+        System.out.println("------------------------------");
+        System.out.println("  INFO CANETA: ");
+        System.out.println("Modelo: " + this.getModelo());
+        System.out.println("Cor: " + this.getCor());
+        System.out.println("Ponta: " + this.getPonta());
+        System.out.println("Tampada: " + this.isTampada());
+        System.out.println("");
+    }
+    
    /*
    //Método Construtor
    public Caneta(String model, String color, float DmPonta){ //Este é o método Construtor
