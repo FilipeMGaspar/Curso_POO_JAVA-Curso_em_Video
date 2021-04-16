@@ -7,7 +7,7 @@ public class Caneta {
    private String cor;
    
    //Método Construtor
-   public Caneta(){ //este é o método Construtor
+   public Caneta(String model, String color, float DmPonta){ //Este é o método Construtor
        this.tampar();
        this.cor = "Azul";
    }
