@@ -3,6 +3,12 @@ package aula04b;
 public class Caneta {
    private String modelo;
    private float ponta;
+   private boolean tampada;
+   
+   //Método Construtor
+   public void Caneta(){ //este é o método Construtor
+       
+   }
    
    public String getModelo(){
        return this.modelo;
@@ -16,6 +22,14 @@ public class Caneta {
    }
    public void setPonta(float DmPonta){
        this.ponta = DmPonta; 
+   }
+   
+   public void tampar(){
+       this.tampada = true;
+   }
+   
+   public void destampar(){
+       this.tampada = false;
    }
    
    public void status(){
