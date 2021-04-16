@@ -10,7 +10,8 @@ public class Aula04b {
         c1.setPonta(0.5f);
         //c1.ponta = 0.5f; //Atributo privado
         
-        c1.status();        
+        //c1.status();        
+        System.out.println("tenho uma caneta " + c1.getModelo() + " de ponta "+c1.getPonta());
     }
     
 }
