@@ -39,6 +39,23 @@ Classe ContaBanco
 	retorne dono
      FimMetodo
 
+     // Metodo get e set para o atributo saldo
+     publico Metodo setSaldo(saldoConta: Real)
+	saldo = saldoConta
+     FimMetodo		 
+		
+     publico Metodo getSaldo()
+	retorne saldo
+     FimMetodo
+
+     // Metodo get e set para o atributo status
+     publico Metodo setStatus(statusConta:Lógico)
+	status = statusConta
+     FimMetodo		 
+		
+     publico Metodo getStatus()
+	retorne status
+     FimMetodo
     //Métodos
 	publico Metodo abrirConta()
 	
