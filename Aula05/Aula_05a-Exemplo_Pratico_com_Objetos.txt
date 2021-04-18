@@ -9,7 +9,7 @@ Exemplo Prático
 Conta poupança - Jubileu 300
 Conta correnta - Creuza 400
 
-Classe conta bancaria
+Classe conta bancaria = ContaBanco
  Atributos: 
 	numConta
 	tipo
