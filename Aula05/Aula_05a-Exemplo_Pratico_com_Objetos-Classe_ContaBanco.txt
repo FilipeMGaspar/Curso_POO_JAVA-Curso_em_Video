@@ -102,10 +102,29 @@ Classe ContaBanco
 	FimMetodo
 
 	publico Metodo pagarMensalidade()
+		var v: Real
 		
+		se(tipoConta = "CC") então
+			v = 12
+		senao se (tipoConta = "CP") entao
+			v = 20
+		FimSe	
+	
+		se (status = verdadeiro) entao
+			se(saldo > v) entao
+				saldo = saldo - v
+			senao
+				Escreva("Saldo insuficiente")		
+			FimSe
+		senao
+		  Escreva("Impossivel pagar Mensalidade.")	
+		FimSe
 	FimMetodo
 
 FimClasse
+
+
+
 
 
 Classe conta bancaria = ContaBanco
