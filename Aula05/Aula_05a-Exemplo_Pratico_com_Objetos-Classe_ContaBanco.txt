@@ -84,15 +84,25 @@ Classe ContaBanco
 		se (status = verdadeiro) entao
 			//saldo = saldo + valor
 			setsaldo(getSaldo() + valor)
-		
+		senao
+			Escreva("Imposivel Depositar. Conta inexistente!")
+		FimSe	
 	FimMetodo
 
-	publico Metodo sacar() //Método para levantar dinheiro
-	
+	publico Metodo sacar(valor: Real) //Método para levantar dinheiro
+		se (getStatus() = verdadeiro) entao
+			se (getSaldo() > valor) entao
+				setSaldo(getSaldo() - valor)
+			senao
+				Escreva("Saldo insuficiente!")
+			FimSe
+		senao
+		  escreva("Imposivel levantar. Conta inexistente")	
+		FimSe	
 	FimMetodo
 
 	publico Metodo pagarMensalidade()
-
+		
 	FimMetodo
 
 FimClasse
