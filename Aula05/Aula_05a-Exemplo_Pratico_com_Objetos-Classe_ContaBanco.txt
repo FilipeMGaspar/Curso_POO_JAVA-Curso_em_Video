@@ -60,7 +60,13 @@ Classe ContaBanco
 
     //Métodos
 	publico Metodo abrirConta(tipoConta: Caracter)
-				
+		setTipo(tipoConta)
+		setStatus(verdadeiro)
+		
+		se(tipoConta = "CC") então
+			setSaldo(50)
+		senao se (tipoConta = "CP") entao
+			setSaldo(150)			
 	FimMetodo
 	
 	publico Metodo fecharConta()
