@@ -80,8 +80,11 @@ Classe ContaBanco
 		FimSe
 	FimMetodo
 	
-	publico Metodo depositar()
-
+	publico Metodo depositar(valor: Real)
+		se (status = verdadeiro) entao
+			//saldo = saldo + valor
+			setsaldo(getSaldo() + valor)
+		
 	FimMetodo
 
 	publico Metodo sacar() //Método para levantar dinheiro
