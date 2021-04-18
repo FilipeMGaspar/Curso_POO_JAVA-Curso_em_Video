@@ -1,10 +1,26 @@
 Exemplo Prático
  Conta bancária.
 - criar conta
+- saldo
 - depositar
 - tipo de conta
-- 
+- levantamento
 
-Conta poupança - Jubileu
-Conta correnta - Creuza
+Conta poupança - Jubileu 300
+Conta correnta - Creuza 400
+
+Classe conta bancaria
+ Atributos: 
+	 numConta
+	 tipo
+	 dono
+	 saldo
+	 status 
+
+ Métodos:
+	abrirConta()
+	fecharConta()
+	depositar()
+
+	 
 
