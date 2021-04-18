@@ -37,7 +37,9 @@ Classe conta bancaria = ContaBanco
 		status = true
 		saldo >= ao valor a sacar	
 		
-	pagar()
+	pagarMensalidade()
+		conta corrente paga 12
+		conta poupança paga 20
 
 
 	 
