@@ -20,6 +20,9 @@ Classe ContaBanco
 	publico Metodo sacar(){ //Método para levantar dinheiro
 	}
 
+	publico Metodo pagarMensalidade(){
+	}
+
 FimClasse
 
 
