@@ -21,6 +21,8 @@ Classe conta bancaria
 	abrirConta()
 	fecharConta()
 	depositar()
+	sacar()
+
 
 	 
 
