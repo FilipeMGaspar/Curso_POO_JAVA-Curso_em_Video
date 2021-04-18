@@ -10,7 +10,12 @@ Classe ContaBanco
      publico Metodo Construtor()
 	saldo = 0
 	status = falso //conta fechada
-     FimMetodo		
+     FimMetodo	
+
+     publico Metodo setNumConta(nrConta: Inteiro)
+	numConta = nrConta
+     FimMetodo		 
+		
 
       //Métodos
 	publico Metodo abrirConta()
