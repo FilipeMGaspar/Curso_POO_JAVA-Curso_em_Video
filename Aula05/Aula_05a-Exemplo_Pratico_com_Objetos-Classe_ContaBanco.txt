@@ -71,7 +71,13 @@ Classe ContaBanco
 	FimMetodo
 	
 	publico Metodo fecharConta()
-
+		se(saldo > 0) entao
+			Escreva("Conta com Dinheiro")	
+		senao se (saldo < 0) entao
+			Escreva("Conta com Divida. Regularise!")
+		senao
+			setStatus(falso)
+		FimSe
 	FimMetodo
 	
 	publico Metodo depositar()
