@@ -56,9 +56,11 @@ Classe ContaBanco
      publico Metodo getStatus()
 	retorne status
      FimMetodo
+
+
     //Métodos
-	publico Metodo abrirConta()
-	
+	publico Metodo abrirConta(tipoConta: Caracter)
+				
 	FimMetodo
 	
 	publico Metodo fecharConta()
