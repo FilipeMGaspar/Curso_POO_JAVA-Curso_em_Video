@@ -66,7 +66,8 @@ Classe ContaBanco
 		se(tipoConta = "CC") então
 			setSaldo(50)
 		senao se (tipoConta = "CP") entao
-			setSaldo(150)			
+			setSaldo(150)	
+		FimSe		
 	FimMetodo
 	
 	publico Metodo fecharConta()
