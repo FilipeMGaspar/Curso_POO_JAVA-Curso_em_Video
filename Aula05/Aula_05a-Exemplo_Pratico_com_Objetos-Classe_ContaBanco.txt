@@ -6,22 +6,32 @@ Classe ContaBanco
 	privado saldo: Real
 	privado status: Lógico
 
+  //Métodos Especiais
+     publico Metodo Construtor()
+	saldo = 0
+	status = falso //conta fechada
+     FimMetodo		
 
       //Métodos
-	publico Metodo abrirConta(){
-	}
+	publico Metodo abrirConta()
 	
-	publico Metodo fecharConta(){
-	}
+	FimMetodo
 	
-	publico Metodo depositar(){
-	}
+	publico Metodo fecharConta()
 
-	publico Metodo sacar(){ //Método para levantar dinheiro
-	}
+	FimMetodo
+	
+	publico Metodo depositar()
 
-	publico Metodo pagarMensalidade(){
-	}
+	FimMetodo
+
+	publico Metodo sacar() //Método para levantar dinheiro
+	
+	FimMetodo
+
+	publico Metodo pagarMensalidade()
+
+	FimMetodo
 
 FimClasse
 
