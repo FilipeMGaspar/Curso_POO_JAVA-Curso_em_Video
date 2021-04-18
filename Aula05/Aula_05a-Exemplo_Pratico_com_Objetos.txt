@@ -42,5 +42,12 @@ Classe conta bancaria = ContaBanco
 		conta poupança paga 20
 
 
+método construtor
+sempre que uma conta for criada
+status = false //Conta fechada
+saldo = 0
+
+
+
 	 
 
