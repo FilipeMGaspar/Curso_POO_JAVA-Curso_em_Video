@@ -32,7 +32,11 @@ Classe conta bancaria = ContaBanco
 	depositar()
 		status = true
 
+
 	sacar()
+		status = true
+		saldo >= ao valor a sacar	
+		
 	pagar()
 
 
