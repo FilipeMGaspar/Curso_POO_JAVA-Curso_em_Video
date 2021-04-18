@@ -1,12 +1,27 @@
 Classe ContaBanco
-	//Atribustos
+      //Atribustos
 	publico	numConta: Inteiro
 	protegido tipo: Caracter
 	privado	dono: Caracter
 	privado saldo: Real
-	privado status: Logico
+	privado status: Lógico
+
+
+      //Métodos
+	publico Metodo abrirConta(){
+	}
+	
+	publico Metodo fecharConta(){
+	}
+	
+	publico Metodo depositar(){
+	}
+
+	publico Metodo sacar(){ //Método para levantar dinheiro
+	}
 
 FimClasse
+
 
 Classe conta bancaria = ContaBanco
  Atributos: 
