@@ -12,7 +12,7 @@ Conta correnta - Creuza 400
 Classe conta bancaria = ContaBanco
  Atributos: 
 	numConta
-	tipo
+	tipo = "cc" ou "cp"   cc = conta corrente e cp = conta poupança
 	dono
 	saldo
 	status 
