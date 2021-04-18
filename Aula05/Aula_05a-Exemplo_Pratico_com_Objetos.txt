@@ -11,17 +11,18 @@ Conta correnta - Creuza 400
 
 Classe conta bancaria
  Atributos: 
-	 numConta
-	 tipo
-	 dono
-	 saldo
-	 status 
+	numConta
+	tipo
+	dono
+	saldo
+	status 
 
  Métodos:
 	abrirConta()
 	fecharConta()
 	depositar()
 	sacar()
+	pagar()
 
 
 	 
