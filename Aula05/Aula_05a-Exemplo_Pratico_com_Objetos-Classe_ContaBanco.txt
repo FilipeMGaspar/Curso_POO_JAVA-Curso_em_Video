@@ -12,12 +12,34 @@ Classe ContaBanco
 	status = falso //conta fechada
      FimMetodo	
 
+     // Metodo get e set para o atributo numConta 
      publico Metodo setNumConta(nrConta: Inteiro)
 	numConta = nrConta
      FimMetodo		 
 		
+     publico Metodo getNumConta()
+	retorne numConta
+     FimMetodo	
+      
+     // Metodo get e set para o atributo tipo de conta	
+     publico Metodo setTipo(tipoConta: Caracter)
+	tipo = tipoConta
+     FimMetodo		 
+		
+     publico Metodo getTipo()
+	retorne tipo
+     FimMetodo
 
-      //Métodos
+     // Metodo get e set para o atributo dono	
+     publico Metodo setDono(donoConta: Caracter)
+	dono = donoConta
+     FimMetodo		 
+		
+     publico Metodo getDono()
+	retorne dono
+     FimMetodo
+
+    //Métodos
 	publico Metodo abrirConta()
 	
 	FimMetodo
