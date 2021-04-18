@@ -19,13 +19,19 @@ Classe conta bancaria = ContaBanco
 
  Métodos:
 	abrirConta()
-		status = true
+		status = true  //Conta aberta
 		tipo de conta
 		conta corrente ganha 50
 		conta poupança inicia a conta com 150
 
 	fecharConta()
+		saldo  = 0
+		e sem débito		
+		status = false //Conta fechada
+
 	depositar()
+		status = true
+
 	sacar()
 	pagar()
 
