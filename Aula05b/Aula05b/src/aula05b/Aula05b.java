@@ -1,4 +1,4 @@
-package contabanco;
+package aula05b;
 
 public class Aula05b {
      public static void main(String[] args) {
