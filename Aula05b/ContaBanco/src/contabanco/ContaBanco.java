@@ -54,6 +54,14 @@ public class ContaBanco {
    }
    
    //Métodos
+   //Método para mostrar o estado atual da conta
+   public void detalhesConta(){
+       System.out.println(" ..: Banco CEV :.. ");
+       System.out.println(" Nº Conta: " + this.getNumConta());
+       System.out.println("Nome 1º titular: " + this.getDonoConta());
+       
+   }
+   
    //Método para abrir uma conta
    public void abrirConta(String tpConta){
        this.setTipoConta(tpConta);
