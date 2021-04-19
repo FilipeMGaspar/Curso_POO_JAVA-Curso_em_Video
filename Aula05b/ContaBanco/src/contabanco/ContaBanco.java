@@ -125,7 +125,6 @@ public class ContaBanco {
    //Método para pagamento da mensalidade ao banco
    public void pagarMensal(){
        double valorMensal = 0;
-       System.out.println(this.getTipoConta());
        if(this.getTipoConta() == "CC"){
            valorMensal = 12;
        }else if(this.getTipoConta() == "CP"){
