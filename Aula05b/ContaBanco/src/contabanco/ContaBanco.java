@@ -102,7 +102,28 @@ public class ContaBanco {
            }
            System.out.println("Ainda não tem conta no Banco CEV!");
            System.out.println("Abra uma! Fácil! Seguro! Super Rentavél!");
+       } 
+   }
+   
+   //Método para pagamento da mensalidade ao banco
+   public void pagarMensal(){
+       double valorMensal = 0;
+       
+       if(this.tipoConta == "CC"){
+           valorMensal = 12;
+       }else if(this.getTipoConta() == "CP"){
+           valorMensal = 20;
        }
        
+       if (this.getStatus()){
+           if(this.getSaldoConta() > valorMensal){
+               this.setSaldoConta(this.getSaldoConta() - valorMensal);
+           }else{
+               System.out.println("Saldo insuficiente!");
+               System.out.println("Saldo: " + this.getSaldoConta());
+           }
+           System.out.println("Ainda não tem conta no Banco CEV!");
+           System.out.println("Abra uma! Fácil! Seguro! Super Rentavél!");
+       }
    }
 }
