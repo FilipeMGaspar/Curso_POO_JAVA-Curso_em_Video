@@ -91,8 +91,9 @@ public class ContaBanco {
            System.out.println("O saldo deve ser igual a R$ 0.");
        }else if(this.getSaldoConta() < 0){
            System.out.println("Impossivel Fechar a conta!");
-           System.out.println("Esta conta tem em divida: R$ " + this.getSaldoConta()); 
+           System.out.println("Esta conta tem uma Divida de: R$ " + (this.getSaldoConta() * -1)); 
            System.out.println("O saldo deve ser igual a R$ 0.");
+           System.out.println("");
        }else{
            this.setStatus(false); //Conta Fechada 
        }

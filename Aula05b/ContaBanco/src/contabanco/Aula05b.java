@@ -11,10 +11,12 @@ public class Aula05b {
         
         System.out.println("");
          
-        tst.depositar(150);
+        //tst.depositar(150);
+        //tst.detalhesConta();
+        //tst.levantar(200);
+        //tst.pagarMensal();
+        tst.setSaldoConta(-20);
         tst.detalhesConta();
-        tst.levantar(200);
-        tst.pagarMensal();
-        tst.detalhesConta();
+        tst.fecharConta();
      }
 }
