@@ -111,12 +111,13 @@ public class ContaBanco {
    //Método para sacar dinheiro ou levantar
    public void levantar(double valor){
        if(this.getStatus()){
-           if(this.getSaldoConta() > valor){
+           if(this.getSaldoConta() >= valor){
               this.setSaldoConta(this.getSaldoConta() - valor); 
            }else{
                System.out.println("Saldo Insuficiente!");
                System.out.println("Saldo: " + this.getSaldoConta());
            }
+       }else{
            System.out.println("Ainda não tem conta no Banco CEV!");
            System.out.println("Abra uma! Fácil! Seguro! Super Rentavél!");
        } 
@@ -138,6 +139,7 @@ public class ContaBanco {
                System.out.println("Saldo insuficiente!");
                System.out.println("Saldo: " + this.getSaldoConta());
            }
+       }else{
            System.out.println("Ainda não tem conta no Banco CEV!");
            System.out.println("Abra uma! Fácil! Seguro! Super Rentavél!");
        }
