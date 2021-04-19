@@ -30,5 +30,18 @@ public class ContaBanco {
    }
    
    //Método get e set para o atributo donoConta
-   public String 
+   public String getDonoConta(){
+       return this.donoConta;
+   }   
+   public void setDonoConta(String dono){
+       this.donoConta = dono;
+   }
+   
+   //Método get e set para o atributo saldoConta
+   public double getSaldoConta(){
+       return this.saldoConta;
+   }
+   public void setSaldoConta(double valor){
+       this.saldoConta = valor;
+   }
 }
