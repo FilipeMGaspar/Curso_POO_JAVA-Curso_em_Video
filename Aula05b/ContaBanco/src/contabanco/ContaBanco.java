@@ -115,7 +115,9 @@ public class ContaBanco {
               this.setSaldoConta(this.getSaldoConta() - valor); 
            }else{
                System.out.println("Saldo Insuficiente!");
-               System.out.println("Saldo: " + this.getSaldoConta());
+               System.out.println("Levantamento solicitado: R$ " + valor);
+               System.out.println("Saldo Disponivel: R$ " + this.getSaldoConta());
+               System.out.println("");
            }
        }else{
            System.out.println("Ainda não tem conta no Banco CEV!");
@@ -137,7 +139,8 @@ public class ContaBanco {
                this.setSaldoConta(this.getSaldoConta() - valorMensal);
            }else{
                System.out.println("Saldo insuficiente!");
-               System.out.println("Saldo: " + this.getSaldoConta());
+               System.out.println("Mensalidade: " + valorMensal);
+               System.out.println("Saldo disponivel: " + this.getSaldoConta());
            }
        }else{
            System.out.println("Ainda não tem conta no Banco CEV!");
