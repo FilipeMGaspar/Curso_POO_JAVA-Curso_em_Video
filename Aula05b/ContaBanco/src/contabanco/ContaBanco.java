@@ -76,7 +76,18 @@ public class ContaBanco {
            System.out.println("Impossivel Fechar a conta!");
            System.out.println("Esta conta tem em divida: R$ " + this.getSaldoConta()); 
            System.out.println("O saldo deve ser igual a R$ 0.");
+       }else{
+           this.setStatus(false); //Conta Fechada 
        }
    }
    
+   //Método para depositar valores na conta
+   public void depositar(double valor){
+       if(this.getStatus()){
+           this.setSaldoConta(this.getSaldoConta() + valor);
+       }else{
+           System.out.println("Ainda não tem conta no Banco CEV!");
+           System.out.println("Abra uma! Fácil! Seguro! Super Rentavél!");
+       }
+   }
 }
