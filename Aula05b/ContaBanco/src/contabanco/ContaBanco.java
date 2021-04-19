@@ -141,6 +141,7 @@ public class ContaBanco {
                System.out.println("Saldo insuficiente!");
                System.out.println("Mensalidade: " + valorMensal);
                System.out.println("Saldo disponivel: " + this.getSaldoConta());
+               System.out.println("");
            }
        }else{
            System.out.println("Ainda não tem conta no Banco CEV!");

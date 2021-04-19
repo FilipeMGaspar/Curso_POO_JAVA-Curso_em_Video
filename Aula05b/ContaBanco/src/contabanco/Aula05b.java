@@ -13,7 +13,8 @@ public class Aula05b {
          
         tst.depositar(150);
         tst.detalhesConta();
-        tst.levantar(205);
-        //tst.pagarMensal();
+        tst.levantar(200);
+        tst.pagarMensal();
+        tst.detalhesConta();
      }
 }
