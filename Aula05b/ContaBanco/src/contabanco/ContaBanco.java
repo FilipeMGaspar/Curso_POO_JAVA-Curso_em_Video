@@ -7,5 +7,9 @@ public class ContaBanco {
    private double saldoConta;
    private boolean status;
    
-   
+   //Métodos especiais
+   public ContaBanco(){
+       this.saldoConta = 0; //Saldo igual a zero
+       this.status = false; //Conta fechada
+   }
 }
