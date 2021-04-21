@@ -1,2 +1,6 @@
 Pilares da POO: Encapsulamento
 
+Consiste em:
+ Ocultar partes independentes da implementação
+ permitindo donstruir partes invisíveis ao 
+ mundo exterior.
