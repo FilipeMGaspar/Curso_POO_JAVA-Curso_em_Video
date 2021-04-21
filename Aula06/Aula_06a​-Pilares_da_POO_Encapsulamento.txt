@@ -38,23 +38,28 @@ publico metodo Construtor()
 	tocando = falso
 FimMetodo
 
-privado metodo getVolume
+privado metodo getVolume()
+	retorne volume	
 FimMetodo
 
-privado metodo setVolume
+privado metodo setVolume(v: inteiro)
+	volume = v
 FimMetodo
 
-privado metodo getLigado
+privado metodo getLigado()
+	retorne ligado
 FimMetodo
 
-privado metodo setLigado
+privado metodo setLigado(l: logico)
+	ligado = l
 FimMetodo
 
-privado metodo getTocando
+privado metodo getTocando()
+	retorne tocando
 FimMetodo
 
-privado metodo setTocando
+privado metodo setTocando(t: logico)
+	tocando = t
 FimMetodo
-
 
 FimClasse
