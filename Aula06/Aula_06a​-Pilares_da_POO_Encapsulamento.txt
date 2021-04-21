@@ -115,9 +115,15 @@ publico metodo DesligarMudo()
 FimMetodo
 
 publico metodo play()
+	se (getLigado() e nao getTocando()) entao
+		setTocando(Verdadeiro)
+	FimSe
 FimMetodo
 
 publico metodo pause()
+	se (getLigado() e getTocando()) entao
+		setTocando(falso)
+	FimSe
 FimMetodo
 
 FimClasse
