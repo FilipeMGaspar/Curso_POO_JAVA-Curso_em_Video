@@ -69,15 +69,15 @@ FimClasse
 
 Classe ControleRemoto implementa Controlador
 
-privado metodo ligar()
+publico metodo ligar()
 	setLigado(verdadeiro)
 FimMetodo
 
-privado metodo desligar()
+publico metodo desligar()
 	setLigado(falso)
 FimMetodo
 
-privado metodo abrirMenu()
+publico metodo abrirMenu()
 	Escreva(getLigado())
 	Escreva(getVolume())
 	Para i = 0 ate getVolume passo 10 faca
@@ -86,27 +86,38 @@ privado metodo abrirMenu()
 	Escreva(getTocando())
 FimMetodo
 
-privado metodo fecharMenu()
+publico metodo fecharMenu()
 	Escreva("Fechando o Menu....")
 FimMetodo
 
-privado metodo maisVolume()
-	
+publico metodo maisVolume()
+	se (getLigado()) entao
+		setVolume(getVolume() + 1)
+	FimSe	
 FimMetodo
 
-privado metodo menosVolume()
+publico metodo menosVolume()
+	se (getLigado()) entao
+		setVolume(getVolume() - 1)
+	FimSe
 FimMetodo
 
-privado metodo ligarMudo()
+publico metodo ligarMudo()
+	se (getLigado() e getVolume() > 0) entao
+		setVolume(0)
+	FimSe
 FimMetodo
 
-privado metodo DesligarMudo()
+publico metodo DesligarMudo()
+	se (getLigado() e getVolume() = 0) entao
+		setVolume(50)
+	FimSe
 FimMetodo
 
-privado metodo play()
+publico metodo play()
 FimMetodo
 
-privado metodo pause()
+publico metodo pause()
 FimMetodo
 
 FimClasse
