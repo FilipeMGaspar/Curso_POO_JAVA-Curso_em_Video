@@ -22,3 +22,39 @@ FimInterface
 
 
 
+//////////////////////////////
+
+Classe ControleRemoto
+
+  //Atributos
+ privado inteiro volume
+ privado logico ligado
+ privado logico tocando
+
+//Métodos Especiais
+publico metodo Construtor()
+	volume = 50
+	ligado = falso
+	tocando = falso
+FimMetodo
+
+privado metodo getVolume
+FimMetodo
+
+privado metodo setVolume
+FimMetodo
+
+privado metodo getLigado
+FimMetodo
+
+privado metodo setLigado
+FimMetodo
+
+privado metodo getTocando
+FimMetodo
+
+privado metodo setTocando
+FimMetodo
+
+
+FimClasse
