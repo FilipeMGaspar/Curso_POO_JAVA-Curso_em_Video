@@ -22,7 +22,7 @@ FimInterface
 
 
 
-//////////////////////////////
+////////////////////////////////////////////////////
 
 Classe ControleRemoto
 
@@ -60,6 +60,43 @@ FimMetodo
 
 privado metodo setTocando(t: logico)
 	tocando = t
+FimMetodo
+
+FimClasse
+
+
+/////////////////////////////////////////////////
+
+Classe ControleRemoto implementa Controlador
+
+privado metodo ligar()
+FimMetodo
+
+privado metodo desligar()
+FimMetodo
+
+privado metodo abrirMenu()
+FimMetodo
+
+privado metodo fecharMenu()
+FimMetodo
+
+privado metodo maisVolume()
+FimMetodo
+
+privado metodo menosVolume()
+FimMetodo
+
+privado metodo ligarMudo()
+FimMetodo
+
+privado metodo DesligarMudo()
+FimMetodo
+
+privado metodo play()
+FimMetodo
+
+privado metodo pause()
 FimMetodo
 
 FimClasse
