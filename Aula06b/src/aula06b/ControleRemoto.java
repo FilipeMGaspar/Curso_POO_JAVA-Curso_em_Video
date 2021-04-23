@@ -45,7 +45,7 @@ public class ControleRemoto implements Controlador{
 
     @Override
     public void desligar() {
-        this.desligar(false);
+        this.setLigado(false);
     }
 
     @Override
@@ -94,7 +94,7 @@ public class ControleRemoto implements Controlador{
 
     @Override
     public void play() {
-
+        
     }
 
     @Override
