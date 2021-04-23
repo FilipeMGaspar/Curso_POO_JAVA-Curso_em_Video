@@ -1,38 +1,38 @@
 package aula06b;
 
-public class ControleRemoto implements Controlador{
+public class ControleRemoto implements Controlador {
     private int volume;
     private boolean ligado;
     private boolean tocando;
     
     //Métodos Especiais
-    /*public ControleRemoto() {
+    public ControleRemoto() {
         this.volume = 50;
         this.ligado = false;
         this.tocando = false;
-    }*/
+    }
 
-    public int getVolume() {
+    private int getVolume() {
         return volume;
     }
 
-    public void setVolume(int volume) {
+    private void setVolume(int volume) {
         this.volume = volume;
     }
 
-    public boolean getLigado() {
+    private boolean getLigado() {
         return ligado;
     }
 
-    public void setLigado(boolean ligado) {
+    private void setLigado(boolean ligado) {
         this.ligado = ligado;
     }
 
-    public boolean getTocando() {
+    private boolean getTocando() {
         return tocando;
     }
 
-    public void setTocando(boolean tocando) {
+    private void setTocando(boolean tocando) {
         this.tocando = tocando;
     }
     
