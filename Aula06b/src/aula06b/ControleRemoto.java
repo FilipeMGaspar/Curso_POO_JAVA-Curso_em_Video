@@ -67,25 +67,29 @@ public class ControleRemoto implements Controlador{
     @Override
     public void maisVolume() {
         if(this.getLigado()){
-            this.setVolume(this.getVolume() + 1);
+            this.setVolume(this.getVolume() + 5);
         }
     }
 
     @Override
     public void menosVolume() {
         if(this.getLigado()){
-            this.setVolume(this.getVolume() - 1);
+            this.setVolume(this.getVolume() - 5);
         }
     } 
 
     @Override
     public void ligarMudo() {
-        
+        if(this.getLigado() && this.getVolume() > 0){
+            this.setVolume(0);
+        }
     }
 
     @Override
     public void desligarMudo() {
-
+        if(this.getLigado() && this.getVolume() == 0){
+            this.setVolume(50);
+        }
     }
 
     @Override
