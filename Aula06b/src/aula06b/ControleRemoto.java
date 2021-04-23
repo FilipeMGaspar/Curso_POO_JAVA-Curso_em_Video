@@ -6,11 +6,11 @@ public class ControleRemoto implements Controlador{
     private boolean tocando;
     
     //Métodos Especiais
-    public ControleRemoto() {
+    /*public ControleRemoto() {
         this.volume = 50;
         this.ligado = false;
         this.tocando = false;
-    }
+    }*/
 
     public int getVolume() {
         return volume;
@@ -66,17 +66,21 @@ public class ControleRemoto implements Controlador{
 
     @Override
     public void maisVolume() {
-        
+        if(this.getLigado()){
+            this.setVolume(this.getVolume() + 1);
+        }
     }
 
     @Override
     public void menosVolume() {
-
-    }
+        if(this.getLigado()){
+            this.setVolume(this.getVolume() - 1);
+        }
+    } 
 
     @Override
     public void ligarMudo() {
-
+        
     }
 
     @Override
