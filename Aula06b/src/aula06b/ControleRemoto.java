@@ -60,14 +60,17 @@ public class ControleRemoto implements Controlador {
             }
             System.out.println("\n");
         }else{
-            System.out.println("Impossivel mostrar o menu");
+            System.out.println("Impossivel mostrar o menu! TV DESLIGADA");
         }
     }
 
     @Override //sobreescreve o método
     public void fecharMenu() {
-        
-        System.out.println("Fechando o Menu...");
+        if(this.getLigado()){
+            System.out.println("Fechando o Menu...");
+        }else{
+            System.out.println("Impossivel fechar o menu! TV DESLIGADA");
+        }
     }
 
     @Override
