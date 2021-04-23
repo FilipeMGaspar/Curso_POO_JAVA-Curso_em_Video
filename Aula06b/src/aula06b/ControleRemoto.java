@@ -40,12 +40,12 @@ public class ControleRemoto implements Controlador{
   //Métodos abstratos
     @Override
     public void ligar() {
-       
+       this.setLigado(true);
     }
 
     @Override
     public void desligar() {
-        
+        this.desligar(false);
     }
 
     @Override
