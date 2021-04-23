@@ -10,5 +10,5 @@ public interface Controlador {
     public abstract void ligarMudo();
     public abstract void desligarMudo();
     public abstract void play();
-    public abstract coid pause();
+    public abstract void pause();
 }
