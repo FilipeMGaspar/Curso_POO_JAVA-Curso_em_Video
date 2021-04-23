@@ -6,7 +6,11 @@ public class ControleRemoto {
     private boolean tocando;
     
     //Métodos Especiais
-
+    public ControleRemoto() {
+        this.volume = 50;
+        this.ligado = false;
+        this.tocando = false;
+    }
   
     
 }
