@@ -78,7 +78,7 @@ public class ControleRemoto implements Controlador {
         if(this.getLigado()){
             this.setVolume(this.getVolume() + 5);
         }else{
-            System.out.println("Impossivel aumentar o volume");
+            System.out.println("Impossivel aumentar o volume! TV DESLIGADA");
         }
     }
 
@@ -87,7 +87,7 @@ public class ControleRemoto implements Controlador {
         if(this.getLigado()){
             this.setVolume(this.getVolume() - 5);
         }else{
-            System.out.println("Impossivel diminuir o volume");
+            System.out.println("Impossivel diminuir o volume! TV DESLIGADA");
         }
     } 
 
@@ -110,7 +110,7 @@ public class ControleRemoto implements Controlador {
         if(this.getLigado() && !(this.getTocando())){
             this.setTocando(true);
         }else{
-            System.out.println("Não consegui reproduzir");
+            System.out.println("Não consegui reproduzir! TV DESLIGADA");
         }
     }
 
@@ -119,7 +119,7 @@ public class ControleRemoto implements Controlador {
         if(this.getLigado() && this.getTocando()){
             this.setTocando(false);
         }else{
-            System.out.println("Não consegui pausar");
+            System.out.println("Não consegui pausar! TV DESLIGADA");
         }
     }
     
