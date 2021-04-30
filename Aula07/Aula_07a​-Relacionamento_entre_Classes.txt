@@ -4,4 +4,13 @@ Relacionamento entre Classes
 		lutra entre emojis
 
 UEC
+ nome
+ nacionalidade
+ idade
+ altura 
+ peso
+ categoria
+ vitorias
+ derrotas
+ empates
 
