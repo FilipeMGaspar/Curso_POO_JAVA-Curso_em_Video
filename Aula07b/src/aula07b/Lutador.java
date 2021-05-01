@@ -63,9 +63,15 @@ public class Lutador {
     public String getCategoria() {
         return categoria;
     }
-    private void setCategoria(float p) {
-        if(p < 52.2){
+    private void setCategoria(float qtpesa) {
+        if(qtpesa < 52.2){
             this.categoria = "Inválido";
+        }else if(qtpesa <= 70.3){
+            this.categoria = "Leve";
+        }else if(qtpesa <= 83.9){
+            this.categoria = "Médio";
+        }else if(){
+            
         }
         
     }
