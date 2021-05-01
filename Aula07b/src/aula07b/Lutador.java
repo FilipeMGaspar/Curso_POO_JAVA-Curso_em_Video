@@ -116,5 +116,9 @@ public class Lutador {
         System.out.println("Origem: " + this.getNacionalidade());
         System.out.println(this.getIdade() + " anos");
         System.out.println(this.getAltura() + " m de altura");
+        System.out.println("Pesando: " + this.getPeso()+" Kg");
+        System.out.println("Ganhou: " + this.getVitorias());
+        System.out.println("Perdeu: " + this.getDerrotas());
+        System.out.println("Empatou: " + this.getEmpates());
     }
 }
