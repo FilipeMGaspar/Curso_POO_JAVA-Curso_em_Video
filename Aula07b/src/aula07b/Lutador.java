@@ -57,13 +57,14 @@ public class Lutador {
     }
     public void setPeso(float peso) {
         this.peso = peso;
+        this.setCategoria(peso);
     }
 
     public String getCategoria() {
         return categoria;
     }
-    private void setCategoria(String categoria) {
-        this.categoria = categoria;
+    private void setCategoria(float p) {
+        this.categoria = "leve";
     }
 
     public int getVitorias() {
