@@ -103,5 +103,7 @@ public class Lutador {
         this.setVitorias(this.getVitorias() + 1);
     }
     
-    
+    public void perderLuta(){
+        this.setDerrotas(this.getDerrotas() + 1);
+    }
 }
