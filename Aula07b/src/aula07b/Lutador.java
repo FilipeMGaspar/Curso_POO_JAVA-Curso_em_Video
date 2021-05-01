@@ -110,4 +110,11 @@ public class Lutador {
     public void empatarLuta(){
         this.setEmpates(this.getEmpates() + 1);
     }
+    
+    public void apresentar(){
+        System.out.println("Lutador: " + this.getNome());
+        System.out.println("Origem: " + this.getNacionalidade());
+        System.out.println(this.getIdade() + " anos");
+        System.out.println(this.getAltura() + " m de altura");
+    }
 }
