@@ -64,7 +64,10 @@ public class Lutador {
         return categoria;
     }
     private void setCategoria(float p) {
-        this.categoria = "leve";
+        if(p < 52.2){
+            this.categoria = "Inválido";
+        }
+        
     }
 
     public int getVitorias() {
