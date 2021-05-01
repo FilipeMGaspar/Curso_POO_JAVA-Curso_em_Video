@@ -98,4 +98,10 @@ public class Lutador {
         this.empates = empates;
     }    
     
+    //métodos 
+    public void ganharLuta(){
+        this.setVitorias(this.getVitorias() + 1);
+    }
+    
+    
 }
