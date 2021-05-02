@@ -6,7 +6,7 @@ public class Aula07b {
        l.apresentar();
        l.status();*/
       
-        Lutador l[] = new Lutador[6]; //array de lutadores
+        Lutador l[] = new Lutador[7]; //array de lutadores
         l[0] = new Lutador("Pretty boy", "França", 31 ,1.75f, 68.9f, 11, 2, 1);
         //l[0].status();
         
@@ -23,7 +23,10 @@ public class Aula07b {
         //l[4].status();
         
         l[5] = new Lutador("Nerdaard", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
-        l[5].status();
+        //l[5].status();
+        
+        l[6] = new Lutador("BdKill", "Vietnam", 30, 1.76f, 123.26f, 2, 11, 3);
+        l[6].status();
     }
     
 }
