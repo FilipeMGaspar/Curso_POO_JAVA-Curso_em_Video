@@ -11,7 +11,10 @@ public class Aula07b {
         //l[0].status();
         
         l[1] = new Lutador("Putscript", "Brasil", 29, 1.68f, 57.8f, 14, 2, 3);
-        l[1].status();
+        //l[1].status();
+        
+        l[2] = new Lutador("Snpshadow", "EUA", 35, 1.65f, 80.9f, 12, 2, 1);
+        l[2].status();
     }
     
 }
