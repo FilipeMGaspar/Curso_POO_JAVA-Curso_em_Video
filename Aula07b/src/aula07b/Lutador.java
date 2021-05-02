@@ -59,14 +59,15 @@ public class Lutador {
     }
     public void setPeso(float peso) {
         this.peso = peso;
-        this.setCategoria(peso);
+        setCategoria();
     }
 
     public String getCategoria() {
-        return categoria;
+        return this.categoria;
     }
-    private void setCategoria(float qtpesa) { //Método privado pois a categora vai ser atribuida consoante o  peso do lutador
-        if(qtpesa < 52.2){
+    private void setCategoria() { //Método privado pois a categora vai ser atribuida consoante o  peso do lutador
+        this.categoria = "TESTE 123";
+        /*if(qtpesa < 52.2){
             this.categoria = "Inválido";
         }else if(qtpesa <= 70.3){
             this.categoria = "Leve";
@@ -76,7 +77,7 @@ public class Lutador {
             this.categoria = "Pesado";
         }else{
             this.categoria = "Inválido";
-        }        
+        } */       
     }
 
     public int getVitorias() {
@@ -122,10 +123,11 @@ public class Lutador {
         System.out.println("Ganhou: " + this.getVitorias());
         System.out.println("Perdeu: " + this.getDerrotas());
         System.out.println("Empatou: " + this.getEmpates());
+        System.out.println("Categoria: " + this.getCategoria());
     }
     
     public void status(){
-        System.out.print(this.getNome()+ ", é um peso "+this.getCategoria());
+        System.out.print(this.getNome()+ ", é um peso " + this.getCategoria());
         System.out.print(", "+this.getVitorias()+" Vitórias, "+this.getDerrotas());
         System.out.print(" Derrotas, "+this.getEmpates()+" Empates!");
     }
