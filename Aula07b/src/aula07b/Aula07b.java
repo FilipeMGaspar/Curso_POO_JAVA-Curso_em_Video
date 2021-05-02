@@ -14,7 +14,10 @@ public class Aula07b {
         //l[1].status();
         
         l[2] = new Lutador("Snpshadow", "EUA", 35, 1.65f, 80.9f, 12, 2, 1);
-        l[2].status();
+        //l[2].status();
+        
+        l[3] = new Lutador("Dead Code", "Austrália", 28, 1.93f, 81.6f, 13, 0, 2);
+        l[3].status();
     }
     
 }
