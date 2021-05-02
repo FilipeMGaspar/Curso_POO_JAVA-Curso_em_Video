@@ -26,7 +26,7 @@ public class Aula07b {
         //l[5].status();
         
         l[6] = new Lutador("BdKill", "Vietnam", 30, 1.76f, 123.26f, 2, 11, 3);
-        l[6].status();
+        //l[6].status();
     }
     
 }
