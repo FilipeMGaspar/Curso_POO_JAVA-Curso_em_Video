@@ -59,14 +59,16 @@ public class Lutador {
     }
     public void setPeso(float peso) {
         this.peso = peso;
-        setCategoria();
+        this.setCategoria();
     }
 
     public String getCategoria() {
         return this.categoria;
     }
-    private void setCategoria() { //Método privado pois a categora vai ser atribuida consoante o  peso do lutador
-        this.categoria = "TESTE 123";
+    public void setCategoria() { //Método privado pois a categora vai ser atribuida consoante o  peso do lutador
+    //        this.categoria = "TESTE 123";
+        this.categoria = "AAAAA ";
+        this.categoria = "BBBB";
         /*if(qtpesa < 52.2){
             this.categoria = "Inválido";
         }else if(qtpesa <= 70.3){
