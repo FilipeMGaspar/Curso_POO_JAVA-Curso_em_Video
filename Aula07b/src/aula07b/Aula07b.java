@@ -20,6 +20,7 @@ public class Aula07b {
         l[2].status();
         
         l[3] = new Lutador("Dead Code", "Austrália", 28, 1.93f, 81.6f, 13, 0, 2);
+        l[3].ganharLuta();
         l[3].status();
         
         l[4] = new Lutador("Ufocobol", "Brasil", 37, 1.7f, 119.3f, 5, 4, 3);
