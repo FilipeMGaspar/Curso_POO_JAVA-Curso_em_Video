@@ -24,9 +24,11 @@ public class Aula07b {
         l[3].status();
         
         l[4] = new Lutador("Ufocobol", "Brasil", 37, 1.7f, 119.3f, 5, 4, 3);
+        l[4].empatarLuta();
         l[4].status();
         
         l[5] = new Lutador("Nerdaard", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
+        
         l[5].status();
         
         l[6] = new Lutador("BdKill", "Vietnam", 30, 1.76f, 123.26f, 2, 11, 3);
