@@ -34,7 +34,9 @@ public class Luta {
             
             switch(vencedor){
                 case 0: //empate
-                    
+                    System.out.println("EMPATOU!");
+                    this.desafiado.empatarLuta();
+                    this.desafiante.empatarLuta();
                     break;
                     
                 case 1: //Desafiado Vence
