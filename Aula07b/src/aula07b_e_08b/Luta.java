@@ -14,7 +14,8 @@ public class Luta {
             this.desafiante = l2;
         }else{
             this.aprovada = false;
-            
+            this.desafiado = null;
+            this.desafiante = null;
         }
     }
     
