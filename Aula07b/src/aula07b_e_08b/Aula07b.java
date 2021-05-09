@@ -29,7 +29,7 @@ public class Aula07b {
         
         //Testes
         Luta UEC01 = new Luta();
-        UEC01.marcarLuta(l[1], l[5]);
+        UEC01.marcarLuta(l[4], l[5]);
         UEC01.lutar();
     }    
 }
