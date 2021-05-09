@@ -7,7 +7,7 @@ public class Luta {
     private boolean aprovada;
     
     //Métodos publicos
-    public void marcarLuta(){
+    public void marcarLuta(Lutador l1, Lutador l2){
         
     }
     
