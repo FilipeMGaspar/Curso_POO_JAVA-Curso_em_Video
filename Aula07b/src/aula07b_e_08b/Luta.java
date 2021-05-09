@@ -8,7 +8,11 @@ public class Luta {
     
     //Métodos publicos
     public void marcarLuta(Lutador l1, Lutador l2){
-        
+        if(l1.getCategoria().equals(l2.getCategoria())){
+            this.aprovada = true;
+            this.desafiado = l1;
+            this.desafiante = l2;
+        }
     }
     
     public void lutar(){
