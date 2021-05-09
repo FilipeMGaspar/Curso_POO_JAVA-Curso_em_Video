@@ -26,13 +26,13 @@ public class Luta {
         if(this.aprovada){
             System.out.println("### DESAFIADO ###");
             this.desafiado.apresentar();
-            System.out.println("\n..: DESAFIANTE ;..");
+            System.out.println("\n### DESAFIANTE ###");
             this.desafiante.apresentar();
             
             Random aleatorio = new Random();
             int vencedor = aleatorio.nextInt(3);//Gera 0  1  2
             
-            System.out.println("======= RESULTADO DA LUTA =======");
+            System.out.println("\n======= RESULTADO DA LUTA =======");
             switch(vencedor){
                 case 0: //empate
                     System.out.println("Empate!");
@@ -41,19 +41,19 @@ public class Luta {
                     break;
                     
                 case 1: //Desafiado Vence
-                    System.out.println("\nVitória do " + this.desafiado.getNome());
+                    System.out.println("..: Vitória do " + this.desafiado.getNome());
                     this.desafiado.ganharLuta();
                     this.desafiante.perderLuta();
                     break;
                     
                 case 2: //Desafiamte vence
-                    System.out.println("\nO vencedor é " + this.desafiante.getNome());
+                    System.out.println("..: O vencedor é " + this.desafiante.getNome());
                     this.desafiante.ganharLuta();
                     this.desafiado.perderLuta();
                     break;
             }
             
-            System.out.println("=====================================0");
+            System.out.println("=====================================");
         }else{            
             System.out.println("A luta não pode acontecer!");         
         }
