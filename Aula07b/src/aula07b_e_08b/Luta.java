@@ -21,9 +21,12 @@ public class Luta {
     
     public void lutar(){
         if(this.aprovada){
-            
-        }else{
-            System.out.println("A luta não pode acontecer!");
+            System.out.println("### DESAFIADO ###");
+            this.desafiado.apresentar();
+            System.out.println("\n..: DESAFIANTE ;..");
+            this.desafiante.apresentar();
+        }else{            
+            System.out.println("A luta não pode acontecer!");         
         }
     }
     
