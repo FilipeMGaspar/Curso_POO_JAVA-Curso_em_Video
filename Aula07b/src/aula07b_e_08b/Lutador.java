@@ -1,4 +1,4 @@
-package aula07b;
+package aula07b_e_08b;
 
 public class Lutador {
     //Atributos
