@@ -21,8 +21,15 @@ public class Aula07b {
         
         l[6] = new Lutador("BdKill", "Vietnam", 30, 1.76f, 123.26f, 2, 11, 3);
         
-        Luta UEC01 = new Luta();
+        /*Luta UEC01 = new Luta();
         UEC01.marcarLuta(l[0], l[1]);
+        UEC01.lutar();
+        l[0].status();
+        l[1].status();*/
+        
+        //Testes
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(l[1], l[1]);
         UEC01.lutar();
         l[0].status();
         l[1].status();
