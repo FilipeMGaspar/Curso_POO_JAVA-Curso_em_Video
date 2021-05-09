@@ -8,32 +8,18 @@ public class Aula07b {
       
         Lutador l[] = new Lutador[7]; //array de lutadores
         l[0] = new Lutador("Pretty boy", "França", 31 ,1.75f, 68.9f, 11, 2, 1);
-        l[0].ganharLuta();
-        l[0].status();
         
         l[1] = new Lutador("Putscript", "Brasil", 29, 1.68f, 57.8f, 14, 2, 3);
-        l[1].empatarLuta();
-        l[1].status();
         
         l[2] = new Lutador("Snpshadow", "EUA", 35, 1.65f, 80.9f, 12, 2, 1);
-        l[2].perderLuta();
-        l[2].status();
         
         l[3] = new Lutador("Dead Code", "Austrália", 28, 1.93f, 81.6f, 13, 0, 2);
-        l[3].ganharLuta();
-        l[3].status();
         
         l[4] = new Lutador("Ufocobol", "Brasil", 37, 1.7f, 119.3f, 5, 4, 3);
-        l[4].empatarLuta();
-        l[4].status();
         
         l[5] = new Lutador("Nerdaard", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
-        l[5].perderLuta();
-        l[5].status();
         
         l[6] = new Lutador("BdKill", "Vietnam", 30, 1.76f, 123.26f, 2, 11, 3);
-        l[6].ganharLuta();
-        l[6].apresentar();
     }
     
 }
