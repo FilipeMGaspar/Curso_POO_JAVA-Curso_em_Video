@@ -38,7 +38,7 @@ public class Luta {
         this.rounds = rounds;
     }
 
-    public boolean isAprovada() {
+    public boolean getAprovada() {
         return aprovada;
     }
     public void setAprovada(boolean aprovada) {
