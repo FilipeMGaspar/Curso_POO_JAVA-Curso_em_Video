@@ -1,4 +1,7 @@
 package aula07b_e_08b;
+
+import java.util.Random;
+
 public class Luta {
     //Atributos
     private Lutador desafiado;
@@ -25,6 +28,21 @@ public class Luta {
             this.desafiado.apresentar();
             System.out.println("\n..: DESAFIANTE ;..");
             this.desafiante.apresentar();
+            
+            Random aleatorio = new Random();
+            int vencedor = aleatorio.nextInt(3);//Gera 0  1  2
+            
+            switch(vencedor){
+                case 0: //empate
+                    
+                    break;
+                    
+                case 1: //Desafiado Vence
+                    break;
+                    
+                case 2: //Desafiamte vence
+                    break;
+            }
         }else{            
             System.out.println("A luta não pode acontecer!");         
         }
