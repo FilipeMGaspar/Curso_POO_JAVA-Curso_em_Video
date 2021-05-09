@@ -46,6 +46,9 @@ public class Luta {
                     break;
                     
                 case 2: //Desafiamte vence
+                    System.out.println("O vencedor é " + this.desafiante.getNome());
+                    this.desafiante.ganharLuta();
+                    this.desafiado.perderLuta();
                     break;
             }
         }else{            
