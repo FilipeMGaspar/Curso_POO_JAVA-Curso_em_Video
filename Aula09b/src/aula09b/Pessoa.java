@@ -1,6 +1,7 @@
 package aula09b;
 
 public class Pessoa {
+    //atributos
     private String nome;
     private int idade;
     private char sexo;
@@ -9,7 +10,8 @@ public class Pessoa {
     //Método Construtor
     public Pessoa(String nome, int idade, char sexo) {
         this.nome = nome;
-        this.idade = idade;
+       // this.idade = idade;
+        this.setIdade(idade);
         this.sexo = sexo;
     }
 
@@ -29,7 +31,7 @@ public class Pessoa {
         if(this.getIdade() > 0 && this.getIdade() < 130){
             this.idade = idade;
         }else{
-            System.out.println("Idade Inválida");
+            this.idade = 0;
         }
         
     }
