@@ -7,6 +7,7 @@ public class Livro implements Publicacao {
     private int totPaginas;
     private int pagAtual;
     private boolean aberto;
+    private boolean emprestado;
     private Pessoa leitor;
     
     //Método Construtor
@@ -55,6 +56,13 @@ public class Livro implements Publicacao {
     }
     public void setAberto(boolean aberto) {
         this.aberto = aberto;
+    }
+    
+    public boolean getEmprestado(){
+        return emprestado;
+    }
+    public void setEmprestado(boolean emprestado){
+        this.emprestado = emprestado;
     }
         
     //Métodos abstratos subrever métodos
@@ -109,9 +117,16 @@ public class Livro implements Publicacao {
     }
 
     public void emprestarLivro(Pessoa leitores){
+        this.setEmprestado(true);        
         System.out.println("\n ### Empréstimo de Livro! ###");
         System.out.println("O livro " + this.getTitulo());
         this.leitor = leitores;
         System.out.println("Requisitante: " + this.leitor.getNome() + " com " + this.leitor.getIdade());
     }
+    
+    public void entregarLivro(Pessoa Leitores){
+        this.setEmprestado(false);
+    }
+    
+    
 }
