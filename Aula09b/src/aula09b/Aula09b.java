@@ -15,14 +15,19 @@ public class Aula09b {
         
         
         
-        //sql.detalhes();
-        //sql.abrir();
+        sql.detalhes();
+        sql.abrir();
         
         //sql.setPagAtual(10);
         //sql.avacarPag(); //Avançar uma página       
         
         //sql.setPagAtual(20);
         //sql.voltarPag(); //Recuar uma página
-        //sql.folhear();
+        sql.folhear();
+        sql.fechar();
+        sql.setPagAtual(20);
+        sql.voltarPag();
+        sql.abrir();
+        sql.voltarPag();
     }    
 }

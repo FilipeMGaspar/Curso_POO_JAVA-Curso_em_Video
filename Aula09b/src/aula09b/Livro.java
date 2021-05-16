@@ -68,17 +68,18 @@ public class Livro implements Publicacao {
         
     //Métodos abstratos subrever métodos
     public void abrir() {
-            this.setAberto(true);  
-            this.setPagAtual(1);
+        this.setAberto(true);  
+        System.out.println("\nAbri o livro!\n"); 
     }
 
     public void fechar() {
         this.setAberto(false);
+        System.out.println("\nFechei o livro!\n");
     }
 
     public void folhear() {
         if(this.getAberto()){
-            System.out.println("\nEstou a folhear o livro!");
+            System.out.println("\nEstou a folhear o livro!\n");
         } else {
             System.out.println("\nO livro está fechado não posso folhear!");
         }
@@ -91,8 +92,9 @@ public class Livro implements Publicacao {
             this.setPagAtual(this.getPagAtual() + 1);            
             System.out.println("Página atual: " + this.getPagAtual());
         }else{
-           System.out.println("O livro está fechado!");
-           System.out.println("Não posso avançar páginas!");
+           
+           System.out.println("\\nNão posso avançar páginas!");
+           System.out.println("O livro está fechado!\n");
         }
     }
 
@@ -102,9 +104,10 @@ public class Livro implements Publicacao {
             System.out.println("Vou recuar uma página!");
             this.setPagAtual(this.getPagAtual() - 1);
             System.out.println("Página atual: " + this.getPagAtual());
-        }else{
-           System.out.println("O livro está fechado!");
-           System.out.println("Não posso recuar nas páginas!");
+        }else{          
+           System.out.println("\nNão posso recuar nas páginas!");
+           System.out.println("O livro está fechado! \n");
+           
         }
     }
     
