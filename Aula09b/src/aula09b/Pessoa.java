@@ -5,9 +5,18 @@ public class Pessoa {
     private int idade;
     private char sexo;
     
+    
+    //Método Construtor
+    public Pessoa(String nome, int idade, char sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+    }
+
     //Métodos geters e seters
     public String getNome() {
-        return nome;    }
+        return nome;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -36,5 +45,12 @@ public class Pessoa {
     //Métodos Publicos
     public void fazerAniver(){
         this.setIdade(this.getIdade() + 1);
+    }
+    
+    public void fichaPessoa(){
+        System.out.println("\n ..: Infomações do registo. :..");
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("Idade: " + this.getIdade());
+        System.out.println("Sexo: " + this.getSexo());
     }
 }
