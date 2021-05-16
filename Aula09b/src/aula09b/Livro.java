@@ -112,6 +112,6 @@ public class Livro implements Publicacao {
         System.out.println("\n ### Empréstimo de Livro! ###");
         System.out.println("O livro " + this.getTitulo());
         this.leitor = leitores;
-        this.leitor.fichaPessoa();
+        System.out.println("Requisitante: " + this.leitor.getNome() + " com " + this.leitor.getIdade());
     }
 }
