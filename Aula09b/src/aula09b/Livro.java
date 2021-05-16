@@ -1,6 +1,6 @@
 package aula09b;
 
-public class Livro {
+public class Livro implements Publicacao {
     //Atributos
     private String titulo;
     private String autor;
@@ -56,6 +56,28 @@ public class Livro {
     public void setAberto(boolean aberto) {
         this.aberto = aberto;
     }
+        
+    //Métodos abstratos subrever métodos
+    public void abrir() {
+        
+    }
+
+    public void fechar() {
+        
+    }
+
+    public void folhear() {
+        
+    }
+
+    public void avacarPag() {
+        
+    }
+
+    public void voltarPag() {
+        
+    }
+    
     
     //Métodos públicos
     public void detalhes(){
@@ -64,4 +86,5 @@ public class Livro {
         System.out.println("Autor: " + this.getAutor());
         System.out.println("Número de páginas: " + this.getTotPaginas());
     }
+
 }
