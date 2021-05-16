@@ -125,10 +125,16 @@ public class Livro implements Publicacao {
     }
     
     public void devolverLivro(Pessoa leitores){
-        System.out.println("Livro devolvido!");
-         this.setEmprestado(false);
-        this.leitor = leitores;
-        this.detalhesEmprestimo();       
+        if(this.getEmprestado()){
+            System.out.println("Livro devolvido!");
+            this.setEmprestado(false);
+            this.leitor = leitores;
+            this.detalhesEmprestimo();  
+        }else{
+            System.out.println("ERRO! Operação inválida!");
+            System.out.println("O livro "+this.getTitulo()+" está na Estante!");
+            System.out.println("Não pode ser devolvido!");
+        }            
     }
     
     public void detalhesEmprestimo(){
