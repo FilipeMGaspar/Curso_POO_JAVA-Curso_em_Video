@@ -10,6 +10,7 @@ public class Aula09b {
         Livro sql = new Livro("SLQ para iniciantes", "Gustavo Guanabara", 659);
         sql.emprestarLivro(ana);
         
+        sql.emprestarLivro(ana);
         //sql.devolverLivro(ana);
         
         

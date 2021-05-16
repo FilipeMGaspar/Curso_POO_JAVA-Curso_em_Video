@@ -118,10 +118,18 @@ public class Livro implements Publicacao {
     }
 
     public void emprestarLivro(Pessoa leitores){
+        if(this.getEmprestado() == false){
             System.out.println("Livro emprestado!");
             this.setEmprestado(true);
             this.leitor = leitores;
-            this.detalhesEmprestimo();            
+            this.detalhesEmprestimo();   
+        }else{
+            this.leitor = leitores;
+            System.out.println("ERRO! Operação inválida!");
+            System.out.println("O livro " + this.getTitulo() + " está emprestado!");
+            System.out.println("Ao leitor(a): " + this.leitor.getNome());
+        }
+          
     }
     
     public void devolverLivro(Pessoa leitores){
