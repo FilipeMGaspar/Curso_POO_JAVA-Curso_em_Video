@@ -29,5 +29,7 @@ public class Pessoa {
     }
     
     //Métodos Publicos
-    
+    public void fazerAniver(){
+        this.setIdade(this.getIdade() + 1);
+    }
 }
