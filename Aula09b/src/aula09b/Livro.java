@@ -119,9 +119,9 @@ public class Livro implements Publicacao {
 
     public void emprestarLivro(Pessoa leitores){
             System.out.println("Livro emprestado!");
-            this.leitor = leitores;
-            this.detalhesEmprestimo();
             this.setEmprestado(true);
+            this.leitor = leitores;
+            this.detalhesEmprestimo();            
     }
     
     public void devolverLivro(Pessoa leitores){
