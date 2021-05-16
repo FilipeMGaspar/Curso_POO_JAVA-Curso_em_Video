@@ -108,9 +108,10 @@ public class Livro implements Publicacao {
         System.out.println("Número de páginas: " + this.getTotPaginas());
     }
 
-    public void emprestarLivro(Pessoa leitor){
+    public void emprestarLivro(Pessoa leitores){
         System.out.println("\n ### Empréstimo de Livro! ###");
         System.out.println("O livro " + this.getTitulo());
+        this.leitor = leitores;
         this.leitor.fichaPessoa();
     }
 }
