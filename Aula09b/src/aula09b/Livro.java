@@ -59,11 +59,11 @@ public class Livro implements Publicacao {
         
     //Métodos abstratos subrever métodos
     public void abrir() {
-        
+            this.setAberto(true);        
     }
 
     public void fechar() {
-        
+        this.setAberto(false);
     }
 
     public void folhear() {
