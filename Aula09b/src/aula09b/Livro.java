@@ -67,7 +67,11 @@ public class Livro implements Publicacao {
     }
 
     public void folhear() {
-        
+        if(this.getAberto()){
+            System.out.println("Estoa a folhear o livro!");
+        } else {
+            System.out.println("O livro está fechado não posso folhear!");
+        }
     }
 
     public void avacarPag() {
