@@ -10,6 +10,8 @@ public class Aula09b {
         Livro sql = new Livro("SLQ para iniciantes", "Gustavo Guanabara", 659);
         sql.detalhes();
         sql.abrir();
-        sql.folhear();
+        sql.avacarPag();
+        
+        //sql.folhear();
     }    
 }

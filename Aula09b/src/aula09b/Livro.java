@@ -59,7 +59,8 @@ public class Livro implements Publicacao {
         
     //Métodos abstratos subrever métodos
     public void abrir() {
-            this.setAberto(true);        
+            this.setAberto(true);  
+            this.setPagAtual(1);
     }
 
     public void fechar() {
@@ -75,7 +76,13 @@ public class Livro implements Publicacao {
     }
 
     public void avacarPag() {
-        
+        if(this.getAberto()){
+            this.setPagAtual(this.getPagAtual() + 1);
+            System.out.println("Página atual: " + this.getPagAtual());
+        }else{
+           System.out.println("O livro está fechado!");
+           System.out.println("Não posso avançar páginas!");
+        }
     }
 
     public void voltarPag() {
