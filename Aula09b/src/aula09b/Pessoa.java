@@ -28,7 +28,7 @@ public class Pessoa {
         return idade;
     }
     public void setIdade(int idade) {
-        if(this.getIdade() > 0 && this.getIdade() < 130){
+        if(idade > 0 && idade < 130){
             this.idade = idade;
         }else{
             this.idade = 0;
