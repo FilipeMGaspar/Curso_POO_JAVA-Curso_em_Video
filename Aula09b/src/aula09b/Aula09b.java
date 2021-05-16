@@ -6,5 +6,8 @@ public class Aula09b {
         ana.fichaPessoa();
         ana.fazerAniver();
         ana.fichaPessoa();
+        
+        Livro sql = new Livro("SLQ para iniciantes", "Gustavo Guanabara", 659);
+        sql.detalhes();
     }    
 }
