@@ -13,7 +13,7 @@ public class Livro {
     public Livro(String titulo, String autor, int totPaginas) {
         this.titulo = titulo;
         this.autor = autor;
-        this.totPaginas = totPaginas;
+        this.setTotPaginas(totPaginas);
     }
     
     
@@ -28,16 +28,19 @@ public class Livro {
     public String getAutor() {
         return autor;
     }
-
     public void setAutor(String autor) {
         this.autor = autor;
     }
+    
     public int getTotPaginas() {
         return totPaginas;
     }
-
     public void setTotPaginas(int totPaginas) {
-        this.totPaginas = totPaginas;
+        if(this.getTotPaginas() > 0){
+           this.totPaginas = totPaginas; 
+        }else{
+            this.totPaginas = 0;   
+        }        
     }
 
     public int getPagatual() {
