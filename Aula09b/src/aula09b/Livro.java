@@ -117,16 +117,26 @@ public class Livro implements Publicacao {
     }
 
     public void emprestarLivro(Pessoa leitores){
-        this.setEmprestado(true);        
-        System.out.println("\n ### Empréstimo de Livro! ###");
-        System.out.println("O livro " + this.getTitulo());
+        this.setEmprestado(true);  
         this.leitor = leitores;
-        System.out.println("Requisitante: " + this.leitor.getNome() + " com " + this.leitor.getIdade());
+        this.detalhesEmprestimo();
     }
     
-    public void entregarLivro(Pessoa Leitores){
+    public void entregarLivro(Pessoa leitores){
         this.setEmprestado(false);
+        this.leitor = leitores;
+        this.detalhesEmprestimo();
     }
     
-    
+    public void detalhesEmprestimo(){
+        if(this.getEmprestado()){
+            System.out.println("\n ### Empréstimo de Livro! ###");
+            System.out.println("O livro " + this.getTitulo());            
+            System.out.println("Foi requisitado pelo(a) Leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade());
+        }else{
+            System.out.println("\n ### Recebimento do Livro! ###");
+            System.out.println("O livro " + this.getTitulo());            
+            System.out.println("Foi entrege pelo(a) leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade());
+        }
+    }
 }
