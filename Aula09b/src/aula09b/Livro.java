@@ -132,7 +132,7 @@ public class Livro implements Publicacao {
     }
     
     public void detalhesEmprestimo(){
-        if(this.getEmprestado() == false){
+        if(this.getEmprestado()){
             System.out.println("");
             System.out.println("O livro: " + this.getTitulo());            
             System.out.println("Foi requisitado pelo(a) Leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade());
