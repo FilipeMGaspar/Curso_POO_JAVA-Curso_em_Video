@@ -126,9 +126,9 @@ public class Livro implements Publicacao {
     
     public void devolverLivro(Pessoa leitores){
         System.out.println("Livro devolvido!");
+         this.setEmprestado(false);
         this.leitor = leitores;
-        this.detalhesEmprestimo();
-        this.setEmprestado(false);
+        this.detalhesEmprestimo();       
     }
     
     public void detalhesEmprestimo(){
