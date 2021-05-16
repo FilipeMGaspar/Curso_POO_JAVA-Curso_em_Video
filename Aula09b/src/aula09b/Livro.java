@@ -5,7 +5,7 @@ public class Livro {
     private String titulo;
     private String autor;
     private int totPaginas;
-    private int pagatual;
+    private int pagAtual;
     private boolean aberto;
     private Pessoa leitor;
     
@@ -43,11 +43,11 @@ public class Livro {
         }        
     }
 
-    public int getPagatual() {
-        return pagatual;
+    public int getPagAtual() {
+        return pagAtual;
     }
-    public void setPagatual(int pagatual) {
-        this.pagatual = pagatual;
+    public void setPagAtual(int pagAtual) {
+        this.pagAtual = pagAtual;
     }
 
     public boolean getAberto() {
