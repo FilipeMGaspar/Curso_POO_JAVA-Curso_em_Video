@@ -69,15 +69,17 @@ public class Livro implements Publicacao {
 
     public void folhear() {
         if(this.getAberto()){
-            System.out.println("Estoa a folhear o livro!");
+            System.out.println("\nEstou a folhear o livro!");
         } else {
-            System.out.println("O livro está fechado não posso folhear!");
+            System.out.println("\nO livro está fechado não posso folhear!");
         }
     }
 
     public void avacarPag() {
         if(this.getAberto()){
-            this.setPagAtual(this.getPagAtual() + 1);
+            System.out.println("\nEstamos na página: " + this.getPagAtual());
+            System.out.println("Vou avançar uma página!");
+            this.setPagAtual(this.getPagAtual() + 1);            
             System.out.println("Página atual: " + this.getPagAtual());
         }else{
            System.out.println("O livro está fechado!");
@@ -86,7 +88,15 @@ public class Livro implements Publicacao {
     }
 
     public void voltarPag() {
-        
+        if(this.getAberto()){
+            System.out.println("\nEstamos na página: " + this.getPagAtual());
+            System.out.println("Vou recuar uma página!");
+            this.setPagAtual(this.getPagAtual() - 1);
+            System.out.println("Página atual: " + this.getPagAtual());
+        }else{
+           System.out.println("O livro está fechado!");
+           System.out.println("Não posso recuar nas páginas!");
+        }
     }
     
     
