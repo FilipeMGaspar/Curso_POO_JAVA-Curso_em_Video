@@ -127,7 +127,6 @@ public class Livro implements Publicacao {
             this.leitor = leitores;
             System.out.println("ERRO! Operação inválida!");
             System.out.println("O livro " + this.getTitulo() + " está emprestado!");
-            System.out.println("Ao leitor(a): " + this.leitor.getNome());
         }
           
     }
@@ -149,12 +148,12 @@ public class Livro implements Publicacao {
         if(this.getEmprestado()){
             System.out.println("");
             System.out.println("O livro: " + this.getTitulo());            
-            System.out.println("Foi requisitado pelo(a) Leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade());
+            System.out.println("Foi requisitado pelo(a) Leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade() + " anos.");
             System.out.println("");
         }else{
             System.out.println("");
             System.out.println("O livro " + this.getTitulo());            
-            System.out.println("Foi entrege pelo(a) leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade());
+            System.out.println("Foi entrege pelo(a) leitor(a): " + this.leitor.getNome() + " com " + this.leitor.getIdade() + " anos.");
             System.out.println("");
         }
     }
