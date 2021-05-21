@@ -1,6 +1,6 @@
 package aula10b;
 
-public class Funcionario {
+public class Funcionario extends Pessoa {
     //Atributos
     private String setor;
     private boolean trabalhando;
@@ -24,5 +24,16 @@ public class Funcionario {
     //Método Publico
     public void mudarTrabalho(){
         this.trabalhando = ! this.getTrabalhando();
+    }
+    
+    public void fichaFuncionario(){
+        this.pessoaDetalhes();
+        System.out.println("Setor: " + this.getSetor());
+        
+        if(this.getTrabalhando()){
+            System.out.print("Trabalhando");
+        }else{
+            System.out.print("EM Repouso.");
+        }
     }
 }
