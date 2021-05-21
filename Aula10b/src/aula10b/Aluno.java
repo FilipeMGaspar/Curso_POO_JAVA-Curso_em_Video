@@ -28,7 +28,6 @@ public class Aluno extends Pessoa {
     
     public void fichaAluno(){
         this.pessoaDetalhes();
-        System.out.println("  -> Aluno");
         System.out.println("Curso: " + this.getCurso());
         System.out.print("Matricula: ");
         if(this.getMatr()){

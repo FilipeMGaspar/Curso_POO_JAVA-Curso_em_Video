@@ -28,7 +28,6 @@ public class Professor extends Pessoa {
     
     public void fichaProfessor(){
         this.pessoaDetalhes();
-        System.out.println("  -> Professor");
         System.out.println("Especialidade: " + this.getEspecialidade());
         System.out.println("Salário: R$ " + this.getSalario());
         System.out.println("");
