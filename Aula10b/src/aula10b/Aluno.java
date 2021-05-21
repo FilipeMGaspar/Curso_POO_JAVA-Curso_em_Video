@@ -22,4 +22,10 @@ public class Aluno {
         this.matr = matr;
     }
     
+    //Método
+    public void cancelarMatricula(){
+        this.matr = ! this.getMatr();
+    }
+    
+    
 }
