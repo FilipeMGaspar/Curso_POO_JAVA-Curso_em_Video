@@ -24,7 +24,7 @@ public class Aula10b {
         p3.setCurso("Informática");
         p3.setNumMatr(235);
         p3.setMatr(true);
-        p3.cancelarMatricula();
+        p3.ativarMatricula();
         p3.fichaAluno();
         
         Funcionario p4 = new Funcionario();
