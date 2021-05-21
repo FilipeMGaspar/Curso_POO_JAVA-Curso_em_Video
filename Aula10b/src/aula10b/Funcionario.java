@@ -14,11 +14,15 @@ public class Funcionario {
         this.setor = setor;
     }
 
-    public boolean isTrabalhando() {
+    public boolean getTrabalhando() {
         return trabalhando;
     }
     public void setTrabalhando(boolean trabalhando) {
         this.trabalhando = trabalhando;
     }
     
+    //Método Publico
+    public void mudarTrabalho(){
+        this.trabalhando = ! this.getTrabalhando();
+    }
 }
