@@ -7,7 +7,7 @@ public class Aula10b {
         p1.setNome("João");
         p1.setIdade(26);
         p1.setSexo('M');
-        
+        p1.pessoaDetalhes();
         
         Professor p2 = new Professor();
         p2.setNome("Maria");
@@ -16,8 +16,8 @@ public class Aula10b {
         p2.setIdade(11);
         p2.setSexo('F');
         p2.fichaProfessor();
-        p2.fazerAniv();
-        p2.fichaProfessor();
+
+        
     }
     
 }
