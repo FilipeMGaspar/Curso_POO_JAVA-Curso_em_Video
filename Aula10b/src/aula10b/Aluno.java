@@ -1,7 +1,7 @@
 
 package aula10b;
 
-public class Aluno {
+public class Aluno extends Pessoa {
     //Atributos
     private String curso;
     private boolean matr;
@@ -27,5 +27,7 @@ public class Aluno {
         this.matr = ! this.getMatr();
     }
     
-    
+    public void fichaAluno(){
+        this.pessoaDetalhes();
+    }
 }
