@@ -22,6 +22,7 @@ public class Aula10b {
         p3.setIdade(18);
         p3.setSexo('M');
         p3.setCurso("Informática");
+        p3.setNumMatr(235);
         p3.setMatr(true);
         p3.cancelarMatricula();
         p3.fichaAluno();
