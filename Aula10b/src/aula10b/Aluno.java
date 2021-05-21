@@ -4,7 +4,7 @@ package aula10b;
 public class Aluno {
     //Atributos
     private String curso;
-    private int numMatr;
+    private boolean matr;
     
     //Métodos Geters e Seters
 
@@ -15,11 +15,11 @@ public class Aluno {
         this.curso = curso;
     }
 
-    public int getNumMatr() {
-        return numMatr;
+    public boolean getMatr() {
+        return matr;
     }
-    public void setNumMatr(int numMatr) {
-        this.numMatr = numMatr;
+    public void setMatr(boolean matr) {
+        this.matr = matr;
     }
     
 }
