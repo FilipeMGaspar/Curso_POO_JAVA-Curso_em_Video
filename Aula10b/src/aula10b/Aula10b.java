@@ -17,6 +17,7 @@ public class Aula10b {
         p2.setSexo('F');
         p2.fichaProfessor();
 
+        Aluno p3 = new Aluno();
         
     }
     
