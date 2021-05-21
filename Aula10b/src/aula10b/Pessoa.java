@@ -33,4 +33,11 @@ public class Pessoa {
     public void fazerAniv(){
         this.setIdade(this.getIdade() + 1);
     }
+    
+    public void pessoaDetalhes(){
+        System.out.println("\n..: Ficha Pessoal :..");
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("Idade: " + this.getIdade());
+        System.out.println("Sexo: " + this.getSexo());
+    }
 }
