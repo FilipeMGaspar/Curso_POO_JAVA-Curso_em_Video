@@ -29,4 +29,8 @@ public class Pessoa {
         this.sexo = sexo;
     }
     
+    //Método 
+    public void fazerAniv(){
+        this.setIdade(this.getIdade() + 1);
+    }
 }
