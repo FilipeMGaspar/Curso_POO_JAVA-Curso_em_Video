@@ -25,6 +25,14 @@ public class Aula10b {
         p3.setMatr(true);
         p3.cancelarMatricula();
         p3.fichaAluno();
+        
+        Funcionario p4 = new Funcionario();
+        p4.setNome("Luciliana");
+        p4.setIdade(29);
+        p4.setSexo('F');
+        p4.setSetor("Secretaria");
+        p4.setTrabalhando(true);
+        p4.fichaFuncionario();
     }
     
 }

@@ -31,9 +31,10 @@ public class Funcionario extends Pessoa {
         System.out.println("Setor: " + this.getSetor());
         
         if(this.getTrabalhando()){
-            System.out.print("Trabalhando");
+            System.out.print("Trabalhando.");
         }else{
             System.out.print("EM Repouso.");
         }
+        System.out.println("\n");
     }
 }
