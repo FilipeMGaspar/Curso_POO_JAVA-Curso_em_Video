@@ -7,7 +7,6 @@ public class Aluno extends Pessoa {
     private boolean matr;
     
     //Métodos Geters e Seters
-
     public String getCurso() {
         return curso;
     }
