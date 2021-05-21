@@ -1,6 +1,6 @@
 package aula10b;
 
-public class Professor {
+public class Professor extends Pessoa {
     //Atributos
     private String especialidade;
     private float salario;
