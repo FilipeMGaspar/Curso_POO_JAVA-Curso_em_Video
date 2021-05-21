@@ -29,5 +29,13 @@ public class Aluno extends Pessoa {
     
     public void fichaAluno(){
         this.pessoaDetalhes();
+        System.out.println("  -> Aluno");
+        System.out.println("Curso: " + this.getCurso());
+        System.out.println("Matricula: ");
+        if(this.getMatr()){
+            System.out.print("Ativa");
+        }else{
+            System.out.println("Anulada.");
+        }
     }
 }
