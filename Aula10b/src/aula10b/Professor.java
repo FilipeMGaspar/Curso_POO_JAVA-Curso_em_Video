@@ -21,4 +21,8 @@ public class Professor {
         this.salario = salario;
     }
     
+    //Método
+    public void receberAumento(float aumt){
+        this.setSalario(this.getSalario() + aumt);
+    }
 }
