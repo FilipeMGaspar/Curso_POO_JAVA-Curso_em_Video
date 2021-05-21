@@ -31,11 +31,12 @@ public class Aluno extends Pessoa {
         this.pessoaDetalhes();
         System.out.println("  -> Aluno");
         System.out.println("Curso: " + this.getCurso());
-        System.out.println("Matricula: ");
+        System.out.print("Matricula: ");
         if(this.getMatr()){
             System.out.print("Ativa");
         }else{
-            System.out.println("Anulada.");
+            System.out.print("Anulada.");
         }
+        System.out.println("\n");
     }
 }

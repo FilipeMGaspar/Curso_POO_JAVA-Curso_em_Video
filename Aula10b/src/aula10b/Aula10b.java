@@ -18,7 +18,12 @@ public class Aula10b {
         p2.fichaProfessor();
 
         Aluno p3 = new Aluno();
-        
+        p3.setNome("Matraquilho");
+        p3.setIdade(18);
+        p3.setSexo('M');
+        p3.setCurso("Informática");
+        p3.setMatr(true);
+        p3.fichaAluno();
     }
     
 }
