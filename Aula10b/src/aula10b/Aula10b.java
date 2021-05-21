@@ -23,6 +23,7 @@ public class Aula10b {
         p3.setSexo('M');
         p3.setCurso("Informática");
         p3.setMatr(true);
+        p3.cancelarMatricula();
         p3.fichaAluno();
     }
     

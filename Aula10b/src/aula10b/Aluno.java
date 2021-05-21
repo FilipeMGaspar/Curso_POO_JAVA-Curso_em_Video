@@ -35,7 +35,7 @@ public class Aluno extends Pessoa {
         if(this.getMatr()){
             System.out.print("Ativa");
         }else{
-            System.out.print("Anulada.");
+            System.out.print("Cancelada.");
         }
         System.out.println("\n");
     }
