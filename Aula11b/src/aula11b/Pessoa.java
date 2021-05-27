@@ -28,5 +28,8 @@ public abstract class Pessoa {
         this.sexo = sexo;
     }
     
-    
+    //Método público
+    public void fazerAniversario(){
+        this.idade ++;
+    }
 }
