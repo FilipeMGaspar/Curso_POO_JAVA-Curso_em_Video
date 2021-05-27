@@ -10,7 +10,7 @@ public class Aula11b {
         v1.setNome("João");
         v1.setIdade(33);
         v1.setSexo('M');
-        
+        System.out.println(v1.toString());
     }
     
 }
