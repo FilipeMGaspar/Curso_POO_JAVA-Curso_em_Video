@@ -3,7 +3,7 @@ public abstract class Pessoa {
     //Atributos
     private String nome;
     private int idade;
-    private String sexo;
+    private char sexo;
     
     //Métodos Geter e Seter
 
@@ -21,10 +21,10 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    public String getSexo() {
+    public char getSexo() {
         return sexo;
     }
-    public void setSexo(String sexo) {
+    public void setSexo(char sexo) {
         this.sexo = sexo;
     }
     
