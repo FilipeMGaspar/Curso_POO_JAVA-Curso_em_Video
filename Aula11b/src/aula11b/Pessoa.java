@@ -32,4 +32,11 @@ public abstract class Pessoa {
     public void fazerAniversario(){
         this.idade ++;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + '}';
+    }
+    
+    
 }
