@@ -9,7 +9,6 @@ public class Aluno extends Pessoa {
     public int getMatricula() {
         return matricula;
     }
-
     public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
@@ -17,9 +16,12 @@ public class Aluno extends Pessoa {
     public String getCurso() {
         return curso;
     }
-
     public void setCurso(String curso) {
         this.curso = curso;
     }
     
+    //Método Publico
+    public void pagarMensalidade(){
+        System.out.println("O aluno " + this.getNome() +" pagou a mensalidade!");
+    }
 }
