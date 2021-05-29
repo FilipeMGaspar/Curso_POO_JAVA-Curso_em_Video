@@ -22,6 +22,6 @@ public class Aluno extends Pessoa {
     
     //Método Publico
     public void pagarMensalidade(){
-        System.out.println("O aluno " + this.getNome() +" pagou a mensalidade!");
+        System.out.println("O aluno " + this.nome +" pagou a mensalidade!");
     }
 }
