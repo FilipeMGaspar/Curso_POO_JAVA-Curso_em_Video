@@ -1,6 +1,6 @@
 package aula11b;
 
-public class Bolsista extends Pessoa {
+public class Bolsista extends Aluno {
     //Atributos
     private float bolsa;
     
@@ -15,5 +15,8 @@ public class Bolsista extends Pessoa {
     //Método público
     public void renovarBolsa(){
         System.out.println("Renovando bolsa de " + this.nome);
+    }
+    public void pagarMensalidade(){
+        
     }
 }
