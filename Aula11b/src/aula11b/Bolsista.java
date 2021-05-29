@@ -16,7 +16,10 @@ public class Bolsista extends Aluno {
     public void renovarBolsa(){
         System.out.println("Renovando bolsa de " + this.nome);
     }
+    
+    @Override
     public void pagarMensalidade(){
-        
+        System.out.println("..: Aluno Bolsista :..");
+        System.out.println("Paga com desconto!");
     }
 }
