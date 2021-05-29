@@ -21,5 +21,8 @@ public class Bolsista extends Aluno {
     public void pagarMensalidade(){
         System.out.println("..: Aluno Bolsista :..");
         System.out.println("Paga com desconto!");
+        System.out.println(" Nome ..: " + this.nome);
+        System.out.println(" Matrivula ..: " + this.getMatricula());
+        System.out.println(" Curso ..: " + this.getCurso());
     }
 }
