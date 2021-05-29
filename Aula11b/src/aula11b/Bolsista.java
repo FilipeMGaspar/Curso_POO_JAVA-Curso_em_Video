@@ -12,5 +12,8 @@ public class Bolsista extends Pessoa {
         this.bolsa = bolsa;
     }
     
-    
+    //Método público
+    public void renovarBolsa(){
+        System.out.println("Renovando bolsa de " + this.nome);
+    }
 }
