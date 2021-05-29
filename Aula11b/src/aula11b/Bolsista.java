@@ -19,7 +19,7 @@ public class Bolsista extends Aluno {
     
     @Override
     public void pagarMensalidade(){
-        System.out.println("..: Aluno Bolsista :..");
+        System.out.println("\n..: Aluno Bolsista :..");
         System.out.println("Paga com desconto!");
         System.out.println(" Nome ..: " + this.nome);
         System.out.println(" Matrivula ..: " + this.getMatricula());
