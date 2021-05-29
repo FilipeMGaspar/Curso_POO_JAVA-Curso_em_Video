@@ -1,9 +1,9 @@
 package aula11b;
 public abstract class Pessoa {
     //Atributos
-    private String nome;
-    private int idade;
-    private char sexo;
+    protected String nome;
+    protected int idade;
+    protected char sexo;
     
     //Métodos Geter e Seter
 
