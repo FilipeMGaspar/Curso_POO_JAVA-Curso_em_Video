@@ -11,6 +11,9 @@ public class Aula12b {
         m.setIdade(2);
         m.setMembros(4);
         m.setCorPelo("Castanho");
+        m.locomover();
+        m.alimentar();
+        m.emitirSom();
         m.detalhesMamifero();
         
     }
