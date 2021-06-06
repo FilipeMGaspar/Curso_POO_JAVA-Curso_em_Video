@@ -28,4 +28,12 @@ public class Reptil extends Animal {
         System.out.println("Som de Réptil!");
     }
     
+    //Método público
+    public void detalhesReptil(){
+        System.out.println("\nRéptil: ");
+        System.out.println("  Peso: " + this.peso);
+        System.out.println("  Idade: " + this.getIdade());
+        System.out.println("  Membros: " + this.membros);
+        System.out.println("  Cor das escamas: " + this.getCorEscama());
+    }
 }
