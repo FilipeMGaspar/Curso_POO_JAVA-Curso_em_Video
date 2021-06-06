@@ -20,4 +20,12 @@ public class Mamifero extends Animal {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+    //Métodos geter e seter
+    public String getCorPelo() {
+        return corPelo;
+    }
+    public void setCorPelo(String corPelo) {
+        this.corPelo = corPelo;
+    }
+    
 }
