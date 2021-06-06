@@ -11,20 +11,22 @@ public class Aula12b {
         m.setIdade(2);
         m.setMembros(4);
         m.setCorPelo("Castanho");
+        m.detalhesMamifero();
         m.locomover();
         m.alimentar();
         m.emitirSom();
-        m.detalhesMamifero();
+        
      
         Reptil r = new Reptil();
         r.setPeso(0.850);
         r.setCorEscama("Verde");
         r.setIdade(1);
         r.setMembros(4);
+        r.detalhesReptil();
         r.locomover();
         r.alimentar();
         r.emitirSom();
-        r.detalhesReptil();
+        
         
     }
     
