@@ -7,16 +7,17 @@ public class Mamifero extends Animal {
     //Métodos abstractos sobrescritos
     @Override
     public void locomover() {
-        
+        System.out.println("Correndo!");
     }
 
     @Override
     public void alimentar() {
+        System.out.println("Em cria. Mamando!");
     }
 
     @Override
     public void emitirSom() {
-        
+        System.out.println("Som de Mamífero!");
     }
     
     //Métodos geter e seter
