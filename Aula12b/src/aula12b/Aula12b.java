@@ -15,6 +15,16 @@ public class Aula12b {
         m.alimentar();
         m.emitirSom();
         m.detalhesMamifero();
+     
+        Reptil r = new Reptil();
+        r.setPeso(0.850);
+        r.setCorEscama("Verde");
+        r.setIdade(1);
+        r.setMembros(4);
+        r.locomover();
+        r.alimentar();
+        r.emitirSom();
+        r.detalhesReptil();
         
     }
     
