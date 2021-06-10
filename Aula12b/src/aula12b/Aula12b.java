@@ -34,7 +34,7 @@ public class Aula12b {
         p.setIdade(1);
         p.setMembros(0);
         p.setCorDaEscama("Branco e amarelo");
-        
+        p.detalhesPeixe();
         p.emitirSom();
         p.locomover();
         p.alimentar();
