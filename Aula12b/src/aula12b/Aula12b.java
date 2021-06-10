@@ -38,6 +38,17 @@ public class Aula12b {
         p.emitirSom();
         p.locomover();
         p.alimentar();
+        
+        //Ave especialização de Animal
+        Ave a = new Ave();
+        a.setPeso(0.750);
+        a.setIdade(2);
+        a.setMembros(2);
+        a.setCorDasPenas("Rosa");
+        a.detalhesAve();
+        a.alimentar();
+        a.emitirSom();
+        a.locomover();
     }
     
 }
