@@ -12,4 +12,8 @@ public class Peixe {
         this.corDaEscama = corDaEscama;
     }
     
+    //Métodos públicos
+    public void soltarBolha(){
+        System.out.println("Soltou uma bolha!");
+    }
 }
