@@ -28,7 +28,16 @@ public class Aula12b {
         r.alimentar();
         r.emitirSom();
         
+        //Peixe especialização de Animal
+        Peixe p = new Peixe();
+        p.setPeso(0.950);
+        p.setIdade(1);
+        p.setMembros(0);
+        p.setCorDaEscama("Branco e amarelo");
         
+        p.emitirSom();
+        p.locomover();
+        p.alimentar();
     }
     
 }

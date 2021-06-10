@@ -16,6 +16,14 @@ public class Peixe extends Animal {
     public void soltarBolha(){
         System.out.println("Soltou uma bolha!");
     }
+    
+    public void detalhesPeixe(){
+        System.out.println("\nPeixe:");
+        System.out.println("  Peso: " +this.getPeso());
+        System.out.println("  Idade: " + this.idade);
+        System.out.println("  Membros: " + this.getMembros());
+        System.out.println("  Cor da escama: " + this.corDaEscama);
+    }
 
     //Métodos Abstractos Sobrescritos
     @Override
