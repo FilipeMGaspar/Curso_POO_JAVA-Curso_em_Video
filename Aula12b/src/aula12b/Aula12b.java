@@ -5,7 +5,8 @@ public class Aula12b {
 
     public static void main(String[] args) {
         //Animal a = new Animal(); //Classes abstractas não podem ser instanciadas
-        
+       
+        //Mamifero especialização de Animal
         Mamifero m = new Mamifero();
         m.setPeso(16.58);
         m.setIdade(2);
@@ -16,7 +17,7 @@ public class Aula12b {
         m.alimentar();
         m.emitirSom();
         
-     
+        //Reptil especialização de Animal
         Reptil r = new Reptil();
         r.setPeso(0.850);
         r.setCorEscama("Verde");
