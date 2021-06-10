@@ -17,6 +17,14 @@ public class Ave extends Animal {
         System.out.println("Construiu um ninho!");
     }
 
+    public void detalhesAve(){
+        System.out.println("\nAve: ");
+        System.out.println("  Peso: " + this.getPeso());
+        System.out.println("  Idade: " + this.idade);
+        System.out.println("  Membros: " + this.membros);
+        System.out.println("  Cor das penas: " + this.getCorDasPenas());
+    }
+    
     //Métodos abstractos sobrescritos
     @Override
     public void locomover() {
