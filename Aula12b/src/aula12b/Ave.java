@@ -1,6 +1,6 @@
 package aula12b;
 
-public class Ava {
+public class Ave {
     //Atributos
     private String corDasPenas;
     
