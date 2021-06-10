@@ -12,4 +12,9 @@ public class Ava {
         this.corDasPenas = corDasPenas;
     }
     
+    //Métodos públicos
+    public void fazerNinho(){
+        System.out.println("Construiu um ninho!");
+    }
+    
 }
