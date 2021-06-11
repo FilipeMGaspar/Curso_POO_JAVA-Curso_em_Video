@@ -69,11 +69,11 @@ public class Aula12b {
         cao.setMembros(4);
         cao.setCorPelo("Bege");
         cao.detalhesCachorro();
+        cao.emitirSom();
         cao.alimentar();
         cao.locomover();
         cao.abanarRabo();
-        cao.enterrarOsso();
-        cao.emitirSom();
+        cao.enterrarOsso();   
     }
     
 }
