@@ -61,6 +61,19 @@ public class Aula12b {
         cg.locomover();
         cg.alimentar();
         cg.emitirSom();
+        
+        //Cachorro especialização de Mamifero
+        Cachorro cao = new Cachorro();
+        cao.setIdade(3);
+        cao.setPeso(22);
+        cao.setMembros(4);
+        cao.setCorPelo("Bege");
+        
+        cao.alimentar();
+        cao.locomover();
+        cao.abanarRabo();
+        cao.enterrarOsso();
+        cao.emitirSom();
     }
     
 }
