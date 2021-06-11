@@ -73,7 +73,9 @@ public class Aula12b {
         cao.alimentar();
         cao.locomover();
         cao.abanarRabo();
-        cao.enterrarOsso();   
+        cao.enterrarOsso();
+        
+        
     }
     
 }
