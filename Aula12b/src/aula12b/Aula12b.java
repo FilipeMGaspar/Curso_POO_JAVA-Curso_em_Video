@@ -68,7 +68,7 @@ public class Aula12b {
         cao.setPeso(22);
         cao.setMembros(4);
         cao.setCorPelo("Bege");
-        
+        cao.detalhesCachorro();
         cao.alimentar();
         cao.locomover();
         cao.abanarRabo();
