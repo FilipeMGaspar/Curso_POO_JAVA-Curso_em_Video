@@ -56,7 +56,7 @@ public class Aula12b {
         cg.setIdade(5);
         cg.setMembros(2);
         cg.setCorPelo("Castanho");
-        cg.detalhesCanguru();
+        cg.detalhesMamifero();
         cg.usarBolsa();
         cg.locomover();
         cg.alimentar();
@@ -67,8 +67,8 @@ public class Aula12b {
         cao.setIdade(3);
         cao.setPeso(22);
         cao.setMembros(4);
-        cao.setCorPelo("Bege");
-        cao.detalhesCachorro();
+        cao.setCorPelo("Castanho");
+        cao.detalhesMamifero();
         cao.emitirSom();
         cao.alimentar();
         cao.locomover();
