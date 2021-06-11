@@ -1,5 +1,5 @@
 package aula12b;
 
-public class Cobra {
+public class Cobra extends Reptil {
     
 }
