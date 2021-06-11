@@ -56,7 +56,7 @@ public class Aula12b {
         cg.setIdade(5);
         cg.setMembros(2);
         cg.setCorPelo("Castanho");
-        
+        cg.detalhesCanguru();
         cg.usarBolsa();
         cg.locomover();
         cg.alimentar();
