@@ -75,6 +75,16 @@ public class Aula12b {
         cao.abanarRabo();
         cao.enterrarOsso();
         
+        //Cobra especialização de Reptil
+        Cobra cbr = new Cobra();
+        cbr.setIdade(4);
+        cbr.setMembros(0);
+        cbr.setPeso(3.5);
+        cbr.setCorEscama("Verde");
+        cbr.detalhesReptil();
+        cbr.alimentar();
+        cbr.locomover();
+        cbr.alimentar();
         
     }
     
