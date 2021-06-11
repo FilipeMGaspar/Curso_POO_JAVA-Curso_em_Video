@@ -10,6 +10,14 @@ public class Cachorro extends Mamifero {
         System.out.println("Abanando o Rabo!");
     }
     
+    public void detalhesCachorro(){
+        System.out.println("\nCachorro: ");
+        System.out.println("  Peso: " + this.getPeso());
+        System.out.println("  Idade: " + this.idade);
+        System.out.println("  Membros: " + this.membros);
+        System.out.println("  Cor do pelo: " + this.getCorPelo());
+    }
+    
     //Métodos abstractos sobrescritos
      @Override
     public void emitirSom() {
