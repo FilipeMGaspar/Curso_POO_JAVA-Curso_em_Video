@@ -9,6 +9,6 @@ public class Canguru extends Mamifero {
     //Métodos abstractos sobrescritos
     @Override
     public void locomover() {
-        System.out.println("Correndo!");
+        System.out.println("Saltando!");
     }
 }
