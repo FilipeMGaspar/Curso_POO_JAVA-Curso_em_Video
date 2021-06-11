@@ -49,6 +49,18 @@ public class Aula12b {
         a.alimentar();
         a.emitirSom();
         a.locomover();
+        
+        //Canguru especialização de Mamifero
+        Canguru cg = new Canguru();
+        cg.setPeso(32);
+        cg.setIdade(5);
+        cg.setMembros(2);
+        cg.setCorPelo("Castanho");
+        
+        cg.usarBolsa();
+        cg.locomover();
+        cg.alimentar();
+        cg.emitirSom();
     }
     
 }
