@@ -96,6 +96,18 @@ public class Aula12b {
         tnt.alimentar();
         tnt.emitirSom();
         tnt.locomover();
+        
+        //GoldFish especialização de Peixe
+        GoldFish gf = new GoldFish();
+        gf.setCorDaEscama("Douradas");
+        gf.setPeso(0.0750);
+        gf.setIdade(1);
+        gf.setMembros(0);
+        gf.detalhesPeixe();
+        gf.alimentar();
+        gf.emitirSom();
+        gf.locomover();
+        gf.soltarBolha();
     }
     
 }
