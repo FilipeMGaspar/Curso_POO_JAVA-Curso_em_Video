@@ -108,6 +108,19 @@ public class Aula12b {
         gf.emitirSom();
         gf.locomover();
         gf.soltarBolha();
+        
+        //Arara especialização de Ave
+        Arara blue = new Arara();
+        blue.setPeso(0.0850);
+        blue.setIdade(2);
+        blue.setMembros(2);
+        blue.setCorDasPenas("Azul");
+        blue.detalhesAve();
+        blue.alimentar();
+        blue.emitirSom();
+        blue.locomover();
+        blue.fazerNinho();
+        
     }
     
 }
