@@ -1,5 +1,5 @@
 package aula12b;
 
-public class Arara {
+public class Arara extends Ave {
     
 }
