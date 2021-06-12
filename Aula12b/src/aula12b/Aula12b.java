@@ -86,6 +86,16 @@ public class Aula12b {
         cbr.locomover();
         cbr.alimentar();
         
+        //Tartaruga especialização de Reptil
+        Tartaruga tnt = new Tartaruga();
+        tnt.setPeso(8);
+        tnt.setIdade(15);
+        tnt.setMembros(4);
+        tnt.setCorEscama("Verde");
+        tnt.detalhesReptil();
+        tnt.alimentar();
+        tnt.emitirSom();
+        tnt.locomover();
     }
     
 }
