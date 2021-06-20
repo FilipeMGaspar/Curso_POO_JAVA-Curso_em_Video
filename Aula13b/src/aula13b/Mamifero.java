@@ -15,7 +15,7 @@ public class Mamifero extends Animal {
     //Métodos abestratos sobrescritos
     @Override
     public void emitirSom() {
+        System.out.println("Som de Mamifero");
     }
-    
     
 }
