@@ -6,8 +6,29 @@ public abstract class Animal {
     protected int idade;
     protected int membros;
     
-    //Método abestrato
+    //Método público abestrato
     public abstract void emitirSom();
     
+    //Métodos geter e seter
+    public double getPeso() {
+        return peso;
+    }
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getMembros() {
+        return membros;
+    }
+    public void setMembros(int membros) {
+        this.membros = membros;
+    }
     
 }
