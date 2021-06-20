@@ -6,4 +6,8 @@ public abstract class Animal {
     protected int idade;
     protected int membros;
     
+    //Método abestrato
+    public abstract void emitirSom();
+    
+    
 }
