@@ -20,9 +20,9 @@ public class Mamifero extends Animal {
     
     //Método publico
     public void detalhesMamifero(){
-        System.out.println("\nIdade ......: " + this.getIdade());
-        System.out.println("Peso .........: " + this.peso);
-        System.out.println("Membros ......: " + this.membros);
-        System.out.println("Cor do pelo ..: " + this.getCorDoPelo());
+        System.out.println(" Idade ......: " + this.getIdade());
+        System.out.println(" Peso .........: " + this.peso);
+        System.out.println(" Membros ......: " + this.membros);
+        System.out.println(" Cor do pelo ..: " + this.getCorDoPelo());
     }
 }
