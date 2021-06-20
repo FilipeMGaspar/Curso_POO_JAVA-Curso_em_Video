@@ -12,6 +12,7 @@ public class Aula13b {
         m.setMembros(4);
         m.setCorDoPelo("Bege");
         m.emitirSom();
+        System.out.println("Mamifero: ");
         m.detalhesMamifero();
     }
     
