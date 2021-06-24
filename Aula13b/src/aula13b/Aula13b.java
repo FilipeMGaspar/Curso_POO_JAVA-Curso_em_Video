@@ -14,6 +14,13 @@ public class Aula13b {
         m.emitirSom();
         System.out.println("\n Mamifero: ");
         m.detalhesMamifero();
+        
+        //Lobo especialização de Mamifero
+        Lobo l = new Lobo();
+        l.setIdade(3);
+        l.setMembros(4);
+        l.setPeso(40);
+        l.setCorDoPelo("Cinzento");
     }
     
 }
