@@ -1,5 +1,5 @@
 package aula13b;
 
-public class Cachorro {
+public class Cachorro extends Lobo {
     
 }
