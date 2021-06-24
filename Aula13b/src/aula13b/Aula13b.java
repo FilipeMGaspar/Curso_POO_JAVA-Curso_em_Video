@@ -24,6 +24,14 @@ public class Aula13b {
         System.out.println("\n Lobo: ");
         l.detalhesMamifero();
         l.emitirSom();
+        
+        //Cachorro especialização de Lobo
+        Cachorro cao = new Cachorro();
+        cao.setIdade(3);
+        cao.setPeso(18.25);
+        cao.setMembros(4);
+        cao.setCorDoPelo("Preto e branco!");
+        
     }
     
 }
