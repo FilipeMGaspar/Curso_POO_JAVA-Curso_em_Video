@@ -21,6 +21,9 @@ public class Aula13b {
         l.setMembros(4);
         l.setPeso(40);
         l.setCorDoPelo("Cinzento");
+        l.emitirSom();
+        System.out.println("\n Lobo: ");
+        l.detalhesMamifero();
     }
     
 }
