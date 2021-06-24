@@ -31,6 +31,7 @@ public class Aula13b {
         cao.setPeso(18.25);
         cao.setMembros(4);
         cao.setCorDoPelo("Preto e branco!");
+        System.out.println("\n Cachorro: ");
         cao.detalhesMamifero();
         cao.emitirSom();
     }
