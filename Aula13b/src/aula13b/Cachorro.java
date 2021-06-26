@@ -29,6 +29,8 @@ public class Cachorro extends Lobo {
     public void reagir(boolean dono){
         if(dono){
             System.out.println("Saltar para cima do dono e lamber!");
+        }else{
+            System.out.println("Mostrar os dentes e rosnar!");
         }
     }
 }
