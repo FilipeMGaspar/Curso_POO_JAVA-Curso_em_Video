@@ -33,4 +33,8 @@ public class Cachorro extends Lobo {
             System.out.println("Mostrar os dentes e rosnar!");
         }
     }
+    
+    public void reagir(int idade, double peso){
+        
+    }
 }
