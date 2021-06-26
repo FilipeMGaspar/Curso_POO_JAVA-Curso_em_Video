@@ -38,6 +38,7 @@ public class Aula13b {
         cao.reagir("Castigo!");
         cao.reagir(11, 10);
         cao.reagir(19, 20);
+        cao.reagir(14, 45);
         System.out.println("");
     }
     
