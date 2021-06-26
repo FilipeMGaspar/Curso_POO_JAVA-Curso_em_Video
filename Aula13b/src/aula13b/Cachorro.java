@@ -8,7 +8,7 @@ public class Cachorro extends Lobo {
     }
     
     public void reagir(String frase){
-        if(frase.equals("olá")){
+        if(frase.equals("Olá") || frase.equals("Comida")){
             System.out.println("Abanar o rabo e latir!");
         }
     }
