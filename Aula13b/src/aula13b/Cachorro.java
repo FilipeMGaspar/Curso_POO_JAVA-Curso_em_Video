@@ -44,6 +44,8 @@ public class Cachorro extends Lobo {
         }else{
             if(peso < 11.65){
                 System.out.println("Caçar passarinhos rosnando!");
+            }else{
+                System.out.println("Deitar e dormir na sombra!");
             }
         }
     }
