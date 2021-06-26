@@ -35,6 +35,10 @@ public class Cachorro extends Lobo {
     }
     
     public void reagir(int idade, double peso){
-        
+        if (idade < 5){
+            if(peso < 10.50){
+                System.out.println("Correr atrás do rabo!");
+            }
+        }
     }
 }
