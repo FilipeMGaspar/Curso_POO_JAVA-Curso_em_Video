@@ -17,6 +17,8 @@ public class Cachorro extends Lobo {
     }
     
     public void reagir(int hora, int min){
-        
+        if(hora < 12){
+            System.out.println("Saltar, correr, comer!");
+        }
     }
 }
