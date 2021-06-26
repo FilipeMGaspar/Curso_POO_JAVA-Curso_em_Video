@@ -8,6 +8,8 @@ public class Cachorro extends Lobo {
     }
     
     public void reagir(String frase){
-        
+        if(frase.equals("olá")){
+            System.out.println("Abanar o rabo e latir!");
+        }
     }
 }
