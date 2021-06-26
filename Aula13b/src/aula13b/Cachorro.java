@@ -21,6 +21,8 @@ public class Cachorro extends Lobo {
             System.out.println("Saltar, correr, comer!");
         }else if(hora >= 18){
             System.out.println("Deitar e ignorar tudo!");
+        }else {
+            System.out.println("Abanar o rabo! Latir, pular e saltar!");
         }
     }
 }
