@@ -38,6 +38,8 @@ public class Cachorro extends Lobo {
         if (idade < 5){
             if(peso < 10.50){
                 System.out.println("Correr atrás do rabo!");
+            }else{
+                System.out.println("Latir e choramingar por comida!");
             }
         }
     }
