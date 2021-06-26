@@ -7,11 +7,16 @@ public class Cachorro extends Lobo {
         System.out.println("Au! Au! Au!");
     }
     
+    //Sobrecarga de métodos 
     public void reagir(String frase){
         if(frase.equals("Olá") || frase.equals("Comida")){
             System.out.println("Abanar o rabo e latir!");
         }else {
             System.out.println("Rosnar!");
         }
+    }
+    
+    public void reagir(int hora, int min){
+        
     }
 }
