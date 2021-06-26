@@ -34,7 +34,10 @@ public class Aula13b {
         System.out.println("\n Cachorro: ");
         cao.detalhesMamifero();
         cao.emitirSom();
+        System.out.println("");
         cao.reagir("Castigo!");
+        cao.reagir(11, 10);
+        System.out.println("");
     }
     
 }
