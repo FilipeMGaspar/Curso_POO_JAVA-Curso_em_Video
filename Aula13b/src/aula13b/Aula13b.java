@@ -42,6 +42,7 @@ public class Aula13b {
         cao.reagir(true);
         cao.reagir(false);
         cao.reagir(3, 8.55);
+        cao.reagir(4, 13.25);
         System.out.println("");
     }
     
