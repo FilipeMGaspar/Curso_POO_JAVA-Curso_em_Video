@@ -46,4 +46,11 @@ public abstract class Pessoa {
         this.experiencia = experiencia;
     }
     
+    //Método toString
+
+    @Override
+    public String toString() {
+        return "Pessoa\n" + "\n ..: Nome: " + nome + "\n ..: Idade: " + idade + "\n ..: Sexo: " + sexo + "\n ..: Experiencia=" + experiencia + '}';
+    }
+    
 }
