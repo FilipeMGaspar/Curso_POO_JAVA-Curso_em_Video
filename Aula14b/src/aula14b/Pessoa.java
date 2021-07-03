@@ -7,6 +7,16 @@ public class Pessoa {
     protected char sexo;
     protected float experiencia;
     
+    //Método Construtor
+
+    public Pessoa(String nome, int idade, char sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+        this.experiencia = 0;
+    }
+    
+    
     //Métodos Geter e Seter
     public String getNome() {
         return nome;
