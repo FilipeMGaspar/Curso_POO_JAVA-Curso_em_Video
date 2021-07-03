@@ -6,8 +6,9 @@ public class Gafanhoto extends Pessoa{
     private int totAssistido;
 
     //Método Construtor
-    public Gafanhoto(String nome, int idade, char sexo) {
+    public Gafanhoto(String nome, int idade, char sexo, String login) {
         super(nome, idade, sexo);
+        this.login = login;
     }    
     
     //Métodos Geter e Seter
