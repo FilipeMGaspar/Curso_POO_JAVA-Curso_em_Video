@@ -12,6 +12,7 @@ public class Aula14b {
         Gafanhoto g[] = new Gafanhoto[2];
         g[0] = new Gafanhoto("Jubileu", 18, 'M', "Jubas");
         g[1] = new Gafanhoto("Juliana", 25, 'F', "sexyJu");
+        System.out.println(g[0].toString());
     }
     
 }
