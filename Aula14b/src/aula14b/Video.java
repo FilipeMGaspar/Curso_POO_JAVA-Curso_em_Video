@@ -72,5 +72,12 @@ public class Video implements AcoesVideo{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+    //Método toString
+
+    @Override
+    public String toString() {
+        return "Video{" + "titulo=" + titulo + ", avaliacao=" + avaliacao + ", views=" + views + ", curtidas=" + curtidas + ", reproduzindo=" + reproduzindo + '}';
+    }
+    
     
 }
