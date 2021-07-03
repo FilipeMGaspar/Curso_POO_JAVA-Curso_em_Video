@@ -8,6 +8,17 @@ public class Video implements AcoesVideo{
     private int curtidas;
     private boolean reproduzindo;
     
+    //Método Construtor
+
+    public Video(String titulo) {
+        this.titulo = titulo;
+        this.avaliacao = 0;
+        this.curtidas = 0;
+        this.views = 0;
+        this.reproduzindo = false;
+    }
+    
+    
     //Métodos Geter e Seter
     public String getTitulo() {
         return titulo;
