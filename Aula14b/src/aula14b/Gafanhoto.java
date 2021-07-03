@@ -9,6 +9,7 @@ public class Gafanhoto extends Pessoa{
     public Gafanhoto(String nome, int idade, char sexo, String login) {
         super(nome, idade, sexo);
         this.login = login;
+        this.totAssistido = 0;
     }    
     
     //Métodos Geter e Seter
