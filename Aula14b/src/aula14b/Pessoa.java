@@ -8,7 +8,6 @@ public class Pessoa {
     protected float experiencia;
     
     //Métodos Geter e Seter
-
     public String getNome() {
         return nome;
     }
