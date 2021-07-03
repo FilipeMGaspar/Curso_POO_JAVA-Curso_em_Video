@@ -1,6 +1,6 @@
 package aula14b;
 
-public class Pessoa {
+public abstract class Pessoa {
     //Atributos
     protected String nome;
     protected int idade;
