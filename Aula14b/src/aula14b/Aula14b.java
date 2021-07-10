@@ -14,8 +14,10 @@ public class Aula14b {
         g[1] = new Gafanhoto("Juliana", 25, 'F', "sexyJu");
         //System.out.println(g[0].toString());
         
-        Visualizacao vis = new Visualizacao(g[0], v[2]);
-        System.out.println(vis.toString());
+        Visualizacao vis[] = new Visualizacao[5];
+        vis[0] = new Visualizacao(g[0], v[2]);
+        System.out.println(vis[0].toString());
+        
     }
     
 }
