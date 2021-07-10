@@ -13,6 +13,19 @@ public class Visualizacao {
         this.filme.setViews(this.filme.getViews() + 1);
     }
     
+    //Sobrecarga de Métodos
+    public void avaliar(){
+        
+    }
+    
+    public void avaliar(int nota){
+        
+    }
+    
+    public void avaliar(float porc){
+        
+    }
+    
     //Métodos Geter e Seter
 
     public Gafanhoto getEspectador() {
