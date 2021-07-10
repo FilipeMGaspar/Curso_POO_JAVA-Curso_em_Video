@@ -19,7 +19,7 @@ public class Visualizacao {
     }
     
     public void avaliar(int nota){
-        
+        this.filme.setAvaliacao(nota);
     }
     
     public void avaliar(float porc){
