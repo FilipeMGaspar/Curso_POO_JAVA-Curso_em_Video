@@ -15,6 +15,7 @@ public class Aula14b {
         System.out.println(g[0].toString());
         
         Visualizacao vis = new Visualizacao(g[0], v[2]);
+        System.out.println(vis.toString());
     }
     
 }
