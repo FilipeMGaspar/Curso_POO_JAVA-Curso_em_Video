@@ -30,7 +30,7 @@ public class Visualizacao {
     //Método toString
     @Override
     public String toString() {
-        return "Visualizacao{" + "espectador=" + espectador + ", filme=" + filme + '}';
+        return "Visualizacao{" + "espectador=" + espectador + "\n filme=" + filme + '}';
     }
     
 }
