@@ -27,4 +27,10 @@ public class Visualizacao {
         this.filme = filme;
     }
     
+    //Método toString
+    @Override
+    public String toString() {
+        return "Visualizacao{" + "espectador=" + espectador + ", filme=" + filme + '}';
+    }
+    
 }
