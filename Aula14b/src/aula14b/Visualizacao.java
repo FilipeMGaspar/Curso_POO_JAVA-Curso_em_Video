@@ -10,6 +10,7 @@ public class Visualizacao {
         this.espectador = espectador;
         this.filme = filme;
         this.espectador.setTotAssistido(this.espectador.getTotAssistido() + 1);
+        this.filme.setViews(this.filme.getViews() + 1);
     }
     
     //Métodos Geter e Seter
