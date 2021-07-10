@@ -15,7 +15,7 @@ public class Visualizacao {
     
     //Sobrecarga de Métodos
     public void avaliar(){
-        
+       this.filme.setAvaliacao(5);
     }
     
     public void avaliar(int nota){
