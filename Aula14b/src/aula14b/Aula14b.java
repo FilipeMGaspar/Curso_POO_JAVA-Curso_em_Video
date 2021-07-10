@@ -19,6 +19,7 @@ public class Aula14b {
         vis[0].avaliar();
         System.out.println(vis[0].toString());
         vis[1] = new Visualizacao(g[0], v[1]);//Jubileu assiste PHP
+        vis[1].avaliar(37.5f);
         System.out.println(vis[1].toString());
     }
     
